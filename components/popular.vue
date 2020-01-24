@@ -213,9 +213,9 @@ export default {
                                 }
                             }
                         }
-                    &.expanded{
-                        background: #fff;
-                    }
+                        &.expanded{
+                            background: #fff;
+                        }
                     }
                 }
                 .buttons{
