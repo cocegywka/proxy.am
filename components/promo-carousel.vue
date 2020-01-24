@@ -10,7 +10,7 @@
         :paginationSize="14"
         >
         <slide v-for="slide of 3" v-bind:key="slide.id">
-          <img src="/images/banner.png" alt="Приватный прокси-сервер" width="1000" height="384"/>
+          <img src="images/banner.png" alt="Приватный прокси-сервер" width="1000" height="384"/>
           <div class="promo-sign">
             <span>Proxy.am</span>
             <strong>ПРИВАТНЫЕ ПРОКСИ-СЕРВЕРЫ</strong>

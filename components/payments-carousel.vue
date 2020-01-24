@@ -10,37 +10,37 @@
                 :navigationPrevLabel="'<'"
                 >
                 <slide class="payment__item">
-                    <img src="/images/pay12.png" alt="webmoney">
+                    <img src="images/pay12.png" alt="webmoney">
                 </slide>
                 <slide class="payment__item">
-                    <img src="/images/pay13.png" alt="yandex">
+                    <img src="images/pay13.png" alt="yandex">
                 </slide>
                 <slide class="payment__item">
-                    <img src="/images/pay14.png" alt="qiwi">
+                    <img src="images/pay14.png" alt="qiwi">
                 </slide>
                 <slide class="payment__item">
-                    <img src="/images/pay15.png" alt="bitcoin">
+                    <img src="images/pay15.png" alt="bitcoin">
                 </slide>
                 <slide class="payment__item">
-                    <img src="/images/pay16.png" alt="payeer">
+                    <img src="images/pay16.png" alt="payeer">
                 </slide>
                 <slide class="payment__item">
-                    <img src="/images/pay17.png" alt="visa">
+                    <img src="images/pay17.png" alt="visa">
                 </slide>
                 <slide class="payment__item">
-                    <img src="/images/pay18.png" alt="mastercard">
+                    <img src="images/pay18.png" alt="mastercard">
                 </slide>
                 <slide class="payment__item">
-                    <img src="/images/pay8.png" alt="perfect money">
+                    <img src="images/pay8.png" alt="perfect money">
                 </slide>
                 <slide class="payment__item">
-                    <img src="/images/pay9.png" alt="alfa click">
+                    <img src="images/pay9.png" alt="alfa click">
                 </slide>
                 <slide class="payment__item">
-                    <img src="/images/pay10.png" alt="liqpay">
+                    <img src="images/pay10.png" alt="liqpay">
                 </slide>
                 <slide class="payment__item">
-                    <img src="/images/pay11.png" alt="wallet one">
+                    <img src="images/pay11.png" alt="wallet one">
                 </slide>
             </carousel>
         </div>
@@ -60,7 +60,7 @@
 .VueCarousel-navigation-next,
 .VueCarousel-navigation-prev{
     text-indent: -9999px;
-    background: url(/images/ico_arrow.png) no-repeat;
+    background: url(images/ico_arrow.png) no-repeat;
     width: 12px;
     height: 18px;
     visibility: hidden;

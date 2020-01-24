@@ -6,7 +6,7 @@
             <ul class="row">
                 <li class="col-sm-4">
                     <div class="img-holder">
-                        <img src="/images/ico_promo1.png" alt="">
+                        <img src="images/ico_promo1.png" alt="">
                     </div>
                     <div class="text-holder">
                         <strong>регистрация аккаунтов</strong>
@@ -15,7 +15,7 @@
                 </li>
                 <li class="col-sm-4">
                     <div class="img-holder">
-                        <img src="/images/ico_promo2.png" alt="">
+                        <img src="images/ico_promo2.png" alt="">
                     </div>
                     <div class="text-holder">
                         <strong>парсинг поисковых систем</strong>
@@ -24,7 +24,7 @@
                 </li>
                 <li class="col-sm-4">
                     <div class="img-holder">
-                        <img src="/images/ico_promo3.png" alt="">
+                        <img src="images/ico_promo3.png" alt="">
                     </div>
                     <div class="text-holder">
                         <strong>брут аккаунтов</strong>
@@ -33,7 +33,7 @@
                 </li>
                 <li class="col-sm-4">
                     <div class="img-holder">
-                        <img src="/images/ico_promo4.png" alt="">
+                        <img src="images/ico_promo4.png" alt="">
                     </div>
                     <div class="text-holder">
                         <strong>регистрация аккаунтов</strong>
@@ -42,7 +42,7 @@
                 </li>
                 <li class="col-sm-4">
                     <div class="img-holder">
-                        <img src="/images/ico_promo5.png" alt="">
+                        <img src="images/ico_promo5.png" alt="">
                     </div>
                     <div class="text-holder">
                         <strong>обход блокировок</strong>
@@ -51,7 +51,7 @@
                 </li>
                 <li class="col-sm-4">
                     <div class="img-holder">
-                        <img src="/images/ico_promo6.png" alt="">
+                        <img src="images/ico_promo6.png" alt="">
                     </div>
                     <div class="text-holder">
                         <strong>безопасность в сети</strong>
@@ -104,7 +104,7 @@ export default {
                     top: 50%;
                     left: 10%;
                     margin: -17px 0 0;
-                    background: url(/images/ico_promo.png) no-repeat;
+                    background: url(images/ico_promo.png) no-repeat;
                     width: 66px;
                     height: 35px;
                 }

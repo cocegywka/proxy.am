@@ -121,7 +121,7 @@ export default {
                         position: absolute;
                         top: 8px;
                         left: 8px;
-                        background: url(/images/item_heading_bg.png) no-repeat;
+                        background: url(images/item_heading_bg.png) no-repeat;
                         width: 55px;
                         height: 33px;
                         z-index: 1;
@@ -131,7 +131,7 @@ export default {
                         position: absolute;
                         top: 8px;
                         right: 8px;
-                        background: url(/images/item_heading_bg.png) no-repeat;
+                        background: url(images/item_heading_bg.png) no-repeat;
                         width: 55px;
                         height: 33px;
                         z-index: 1;
@@ -148,7 +148,7 @@ export default {
                     }
                     .ip{
                         float: right;
-                        background: url('/images/ip_icon.png') no-repeat 0 50%;
+                        background: url('images/ip_icon.png') no-repeat 0 50%;
                         padding: 0 0 0 20px;
                         color: #7c97af;
                         font-size: 14px;
