@@ -1,0 +1,27 @@
+{
+  "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+  "name": "proxy.nuxt",
+  "version": "1.0.0",
+  "description": "proxy.am on nuxt.js",
+  "author": "Azvukov",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.2.2",
+    "nuxt": "^2.0.0",
+    "vue": "^2.6.11",
+    "vue-carousel": "^0.18.0",
+    "vue-dynamic-dropdown": "^1.0.12"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "push-dir": "^0.4.1",
+    "sass-loader": "^8.0.2"
+  }
+}
