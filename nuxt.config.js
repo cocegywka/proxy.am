@@ -1,7 +1,7 @@
 
 export default {
   router: {
-    base: 'proxy.am'
+    base: '/proxy.am/'
   }
   mode: 'universal',
   /*

@@ -1,11 +1,11 @@
 {
-  "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
   "name": "proxy.nuxt",
   "version": "1.0.0",
   "description": "proxy.am on nuxt.js",
   "author": "Azvukov",
   "private": true,
   "scripts": {
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",git commit -m "init"
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
