@@ -60,7 +60,7 @@
 .VueCarousel-navigation-next,
 .VueCarousel-navigation-prev{
     text-indent: -9999px;
-    background: url(images/ico_arrow.png) no-repeat;
+    background: url(~images/ico_arrow.png) no-repeat;
     width: 12px;
     height: 18px;
     visibility: hidden;
