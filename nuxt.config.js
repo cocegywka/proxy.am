@@ -2,7 +2,7 @@
 export default {
   router: {
     base: '/proxy.am/'
-  }
+  },
   mode: 'universal',
   /*
   ** Headers of the page
