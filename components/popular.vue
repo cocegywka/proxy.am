@@ -197,6 +197,7 @@ export default {
                     }
                     .dropdown {
                         position: absolute;
+                        border-radius: 12px;
                         bottom: 10px;
                         right: 15px;
                         width: 100px;
@@ -212,6 +213,9 @@ export default {
                                 }
                             }
                         }
+                    &.expanded{
+                        background: #fff;
+                    }
                     }
                 }
                 .buttons{
