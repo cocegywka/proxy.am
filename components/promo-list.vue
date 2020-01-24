@@ -104,7 +104,7 @@ export default {
                     top: 50%;
                     left: 10%;
                     margin: -17px 0 0;
-                    background: url(images/ico_promo.png) no-repeat;
+                    background: url(~/images/ico_promo.png) no-repeat;
                     width: 66px;
                     height: 35px;
                 }
