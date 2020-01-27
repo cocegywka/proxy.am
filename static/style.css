@@ -597,7 +597,7 @@ table td:last-child{border-right:none;}
   margin: 18px 0 0 73px;
 }
 .logo-shield{background:url(images/shield_2019_newyear.png) no-repeat;position:absolute;background-size:cover;top:0;left:0;width:56px;height:63px;}
-.logo:hover .logo-shield{-webkit-animation-name:logoanim;-moz-animation-name:logoanim;-o-animation-name:logoanim;animation-name:logoanim;-webkit-animation-duration:0.3s;-moz-animation-duration:0.3s;-o-animation-duration:0.3s;animation-duration:0.3s;-webkit-animation-iteration-count:2;-moz-animation-iteration-count:2;-o-animation-iteration-count:2;animation-iteration-count:2;-webkit-animation-timing-function:ease-in-out;-moz-animation-timing-function:ease-in-out;-o-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;}
+/* .logo:hover .logo-shield{-webkit-animation-name:logoanim;-moz-animation-name:logoanim;-o-animation-name:logoanim;animation-name:logoanim;-webkit-animation-duration:0.3s;-moz-animation-duration:0.3s;-o-animation-duration:0.3s;animation-duration:0.3s;-webkit-animation-iteration-count:2;-moz-animation-iteration-count:2;-o-animation-iteration-count:2;animation-iteration-count:2;-webkit-animation-timing-function:ease-in-out;-moz-animation-timing-function:ease-in-out;-o-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;} */
 @-webkit-keyframes logoanim{0%{top:-1px;}
 50%{top:-2px;}
 100%{top:-3px;}
