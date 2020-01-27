@@ -25,12 +25,6 @@
             </ul>
             </div>
             <div class="buttons">
-                <div class="socials">
-                    <!-- uSocial -->
-                    <script async src="https://usocial.pro/usocial/usocial.js?v=6.1.2" data-script="usocial" charset="utf-8"></script>
-                    <div class="uSocial-Share" data-pid="8d049da61469c9333d2e829fd87cfcb8" data-type="share" data-options="round-rect,style1,default,absolute,horizontal,size32,eachCounter0,counter0,nomobile" data-social="vk,fb,twi,gPlus,ok,mail,lj,spoiler"></div>
-                    <!-- /uSocial -->
-                </div>
                 <div class="webmoney-labels">
                     <a href="http://www.free-kassa.ru/" rel="nofollow" target=_blank><img src="images/pay-by-freekassa.png" alt="free-kassa"></a>
                     <a href="http://www.megastock.ru/" rel="nofollow" target=_blank><img src="images/we-accept.png" alt="www.megastock.ru"></a>
