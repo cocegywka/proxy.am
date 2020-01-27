@@ -233,13 +233,26 @@ export default {
                         line-height: 46px;
                         text-align: center;
                         text-transform: none;
-                        border-top: 1px solid #eaeaf0;
                         padding: 0;
+                        transition:all 0.3s ease-in-out;
+                    }
+                    .more{
+                        border-top: 1px solid #eaeaf0;
+                        &:hover{
+                            text-decoration: underline;
+                            filter:grayscale(100%);
+                        }
                     }
                     .buy{
                         background: #237c7c;
-                        border: none;
+                        border:1px solid #237c7c;
                         color: #fff;
+                        border-radius: 0 0 15px 0;
+                        &:hover{
+                            background: #fff;
+                            color: #237c7c;
+                            border-color: #237c7c;
+                        }
 
                     }
                 }
@@ -251,6 +264,11 @@ export default {
             }
             .buy{
                 background: #7e4494 !important;
+                border-color: #7e4494 !important;
+                &:hover{
+                    color: #7e4494 !important;
+                    background: #fff !important;
+                }
             }
         }
         .color--3 {
@@ -259,6 +277,11 @@ export default {
             }
             .buy{
                 background: #ab913e !important;
+                border-color:#ab913e !important;
+                &:hover{
+                    color: #ab913e !important;
+                    background: #fff !important;
+                }
             }
         }
         .color--4 {
@@ -267,6 +290,11 @@ export default {
             }
             .buy{
                 background: #444494 !important;
+                border-color:#444494 !important;
+                &:hover{
+                    color: #444494 !important;
+                    background: #fff !important;
+                }
             }
         }
         .color--5 {
@@ -275,6 +303,11 @@ export default {
             }
             .buy{
                 background: #a74a4a !important;
+                border-color:#a74a4a !important;
+                &:hover{
+                    color: #a74a4a !important;
+                    background: #fff !important;
+                }
             }
         }
         .color--6 {
@@ -283,6 +316,11 @@ export default {
             }
             .buy{
                 background: #3eab46 !important;
+                border-color:#3eab46 !important;
+                &:hover{
+                    color: #3eab46 !important;
+                    background: #fff !important;
+                }
             }
         }
     }
