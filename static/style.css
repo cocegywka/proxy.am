@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Rubik:300,400,500&display=swap');
 /* body{background: #2b3151;} */
 @font-face {
+  font-family: 'neogreymedium';
+  src: url('fonts/neogreymedium-webfont.eot');
+  src: url('fonts/neogreymedium-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/neogreymedium-webfont.woff') format('woff'),
+       url('fonts/neogreymedium-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 300;
