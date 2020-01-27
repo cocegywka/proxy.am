@@ -214,7 +214,7 @@ export default {
                             }
                         }
                         &.expanded{
-                            background: #2c3760;
+                            background: #fff;
                         }
                     }
                 }
