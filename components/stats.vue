@@ -59,3 +59,8 @@
         </div>
     </div>
 </template>
+<style lang="scss">
+    .dropdown .dropdown-label-container .dropdown-label .text{
+        color: #7c97af;
+    }
+</style>
