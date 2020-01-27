@@ -9,7 +9,7 @@
         :paginationPadding="5"
         :paginationSize="14"
         >
-        <slide v-for="slide of 3" v-bind:key="slide.id">
+        <slide v-for="slide of 3" v-bind:key="slide">
           <img src="images/banner.png" alt="Приватный прокси-сервер" width="1000" height="384"/>
           <div class="promo-sign">
             <span>Proxy.am</span>
@@ -20,7 +20,7 @@
           <div class="promo-text">
             <span>SHARED ПРОКСИ </span>
             <strong>УВЕЛИЧЕНИЕ ОНЛАЙНА</strong>
-            <p>20,000 IP всего за 10$ в месяц.</p>
+            <p>20,000 IP всего за {{slide}}0$ в месяц.</p>
           </div>
           <div class="promo-price row">
             <div class="col-sm-6">
@@ -29,7 +29,7 @@
             </div>
             <div class="col-sm-6">
               <div class="price">
-                <strong>10<sup>$</sup></strong>
+                <strong>{{slide}}0<sup>$</sup></strong>
                 <em>в месяц.</em>
               </div>
             </div>
@@ -150,6 +150,7 @@
         }
       }
     }
+    .VueCarousel-slide{position: relative;}
     .VueCarousel-dot-container{
       position: absolute;
       bottom: 40px;
