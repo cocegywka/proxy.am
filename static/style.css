@@ -206,7 +206,7 @@ table td:last-child{border-right:none;}
 .menu-bottom{border-top:0;border-bottom:3px solid #469AFD;}
 .top-menu{float:left;-moz-transition:.3s ease all;-webkit-transition:.3s ease all;-o-transition:.3s ease all;transition:.3s ease all;list-style:none;margin:0;padding:0 0 0;}
 .top-menu li{margin:0 45px 0 0;float:left;}
-.top-menu li a{font-size:14px;height:61px;padding:0;font-weight:400;line-height:61px;display:block;color:#5d6280;transition:0.3s ease;}
+.top-menu li a{font-size:14px;height:61px;padding:0;font-weight:400;line-height:61px;display:block;color:#5d6280;transition:0.3s ease;text-decoration: none;}
 .top-menu .active a,
 .top-menu li a:hover{color:#bec0c9;}
 .user{float:right;padding:15px 10px 7px 65px;margin:3px 0 0;background:url(images/ico-login.png) no-repeat 0 50%;}
@@ -1606,7 +1606,7 @@ table.jqplot-table-legend {border: 0px;background-color: rgba(100,100,100, 0.0);
   margin: 0;
 }
 .head-stats-block .head-stats__item{
-  color: #5d6280;
+  color: #a9b1da;
   font-size: 12px;
   line-height: 14px;
   display: block;
