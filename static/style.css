@@ -1567,7 +1567,7 @@ table.jqplot-table-legend {border: 0px;background-color: rgba(100,100,100, 0.0);
 }
 .head-stats-block{
   float: right;
-  padding: 20px 20px 0;
+  padding: 16px 20px 0;
   /*min-height: 74px;*/
 }
 .logged .head-stats-block{width: 161px;}
