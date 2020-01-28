@@ -43,6 +43,7 @@
   .carousel{
     width: 1000px;
     margin: -1px auto 0;
+    min-height: 384px;
     .promo-text{
       width: 380px !important;
       left: auto !important;
