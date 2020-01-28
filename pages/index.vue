@@ -9,6 +9,7 @@
     <promoList />
     <paymentsCarousel />
     <footerBox />
+    <scrolltop />
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import popular from '~/components/popular.vue'
 import promoList from '~/components/promo-list.vue'
 import paymentsCarousel from '~/components/payments-carousel.vue'
 import footerBox from '~/components/footer-box.vue'
+import scrolltop from '~/components/scrolltop.vue'
 
 export default {
   components: {
@@ -29,7 +31,8 @@ export default {
     popular,
     promoList,
     paymentsCarousel,
-    footerBox
+    footerBox,
+    scrolltop
   }
 }
 </script>
