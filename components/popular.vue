@@ -18,7 +18,7 @@
                                 <li>безлимитный трафик</li>
                             </ul>
                             <div class="col-sm-5">
-                                <strong class="price">30<span>$</span></strong>
+                                <strong class="price">{{item}}0<span>$</span></strong>
                                 <vue-dropdown
                                     :config="config"
                                     @setSelectedOption="setNewSelectedOption($event);"
@@ -204,6 +204,10 @@ export default {
                         .dropdown-label-container {
                             border: 1px solid #3e4874 !important;
                             border-radius: 10px;
+                            transition: all 0.3s ease-in-out;
+                            &:hover{
+                                background: #fff;
+                            }
                             .dropdown-label {
                                 .text{
                                     font-size: 13px !important;
@@ -238,9 +242,10 @@ export default {
                     }
                     .more{
                         border-top: 1px solid #eaeaf0;
+                        border-radius: 0 0 0 15px;
                         &:hover{
-                            text-decoration: underline;
-                            filter:grayscale(100%);
+                            color: #232c56;
+                            background: #eaeaf0;
                         }
                     }
                     .buy{
