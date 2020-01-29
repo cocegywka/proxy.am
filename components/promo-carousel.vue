@@ -20,12 +20,12 @@
           <div class="promo-text">
             <span>SHARED ПРОКСИ </span>
             <strong>УВЕЛИЧЕНИЕ ОНЛАЙНА</strong>
-            <p>20,000 IP всего за {{slide}}0$ в месяц.</p>
+            <p>{{slide}}0,000 IP всего за {{slide}}0$ в месяц.</p>
           </div>
           <div class="promo-price row">
             <div class="col-sm-6">
               <span class="shared">SHARED PROXY</span>
-              <span class="ip">20 000 IP</span>
+              <span class="ip">{{slide}}0 000 IP</span>
             </div>
             <div class="col-sm-6">
               <div class="price">
