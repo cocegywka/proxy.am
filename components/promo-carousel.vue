@@ -10,7 +10,8 @@
         :paginationSize="14"
         >
         <slide v-for="slide of 3" v-bind:key="slide">
-          <img src="images/banner.png" alt="Приватный прокси-сервер" width="1000" height="384"/>
+          <img src="images/banner2.png" alt="Приватный прокси-сервер" width="1000" height="384"/>
+          <img src="images/spinner.png" alt="" class="spinner">
           <div class="promo-sign">
             <span>Proxy.am</span>
             <strong>ПРИВАТНЫЕ ПРОКСИ-СЕРВЕРЫ</strong>
@@ -20,12 +21,12 @@
           <div class="promo-text">
             <span>SHARED ПРОКСИ </span>
             <strong>УВЕЛИЧЕНИЕ ОНЛАЙНА</strong>
-            <p>{{slide}}0,000 IP всего за {{slide}}0$ в месяц.</p>
+            <p>20,000 IP всего за {{slide}}0$ в месяц.</p>
           </div>
           <div class="promo-price row">
             <div class="col-sm-6">
               <span class="shared">SHARED PROXY</span>
-              <span class="ip">{{slide}}0 000 IP</span>
+              <span class="ip">20 000 IP</span>
             </div>
             <div class="col-sm-6">
               <div class="price">
@@ -151,7 +152,21 @@
         }
       }
     }
-    .VueCarousel-slide{position: relative;}
+    .VueCarousel-slide{
+      position: relative;
+      .spinner{
+        position: absolute;
+        top: 259px;
+        left: 405px;
+        background-image: url('../static/images/spinner.png');
+        -webkit-animation:spin 4s linear infinite;
+        -moz-animation:spin 4s linear infinite;
+        animation:spin 4s linear infinite;
+      }
+      @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+      @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+      @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+    }
     .VueCarousel-dot-container{
       position: absolute;
       bottom: 40px;
@@ -174,7 +189,7 @@
         border-radius: 50%;
       }
     }
-    
+
   }
 </style>
 <script>
@@ -188,4 +203,4 @@
           this.showCarousel = true;
         }
     }
-</script> 
+</script>
