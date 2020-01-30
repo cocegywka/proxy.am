@@ -1,5 +1,5 @@
 FROM node:10-alpine
-ENV APP_ROOT /web
+ENV APP_ROOT /
 ENV NODE_ENV production
 
 WORKDIR ${APP_ROOT}
