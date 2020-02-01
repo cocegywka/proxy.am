@@ -23,7 +23,9 @@
     "vue-dynamic-dropdown": "^1.0.12"
   },
   "devDependencies": {
-    "push-dir": "^0.4.1"
+    "fsevents": "^2.1.2",
+    "push-dir": "^0.4.1",
+    "sass": "^1.25.0"
   },
   "config": {
     "nuxt": {
