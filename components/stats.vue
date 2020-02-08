@@ -20,7 +20,7 @@
                         <div class="img-holder">
                             <img src="images/ico-head-stat4.png" alt="">
                         </div>
-                        <span class="stat-number" id="country_count"><span class="spincrement" data-from="0" data-to="221">214</span></span>   
+                        <span class="stat-number" id="country_count"><span class="spincrement" data-from="0" data-to="221">214</span></span>
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,7 @@
                         <div class="img-holder">
                             <img src="images/ico-head-stat3.png" alt="">
                         </div>
-                        <span class="stat-number" id="online_now"><span class="spincrement" data-from="0" data-to="52741">21 964</span></span>                            
+                        <span class="stat-number" id="online_now"><span class="spincrement" data-from="0" data-to="52741">000 00</span></span>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                         <div class="img-holder">
                             <img src="images/ico-head-stat2.png" alt="">
                         </div>
-                        <span class="stat-number" id="online_today"><span class="spincrement" data-from="0" data-to="174406">95 035</span></span>                            
+                        <span class="stat-number" id="online_today"><span class="spincrement" data-from="0" data-to="174406">95 035</span></span>
                         </div>
                     </div>
                 </div>
@@ -83,10 +83,22 @@
 <script>
 export default {
   mounted() {
-      window.addEventListener('scroll',
-        () => document.querySelector('#navigation')
-        .classList.toggle('sticky', window.scrollY > 61)
-        )
-  }
+    window.addEventListener('scroll',
+      () => document.querySelector('#navigation')
+      .classList.toggle('sticky', window.scrollY > 61)
+    )
+  },
+  data: () => ({
+    stats: []
+  }),
+  async mounted () {
+    this.stats = await this.$axios.$get('http://proxyam.zone/json/online/?unicapi=null')
+  },
+  // data ({ params }) {
+  //   return axios.get(`https://proxyam.zone/json/online/?unicapi=null`)
+  //     .then((res) => {
+  //       return { result: res }
+  //     })
+  // }
 }
 </script>
