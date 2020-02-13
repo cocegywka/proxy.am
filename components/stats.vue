@@ -1,10 +1,10 @@
 <template>
     <div id="navigation">
         <div class="center-wrapper clr">
-            <a href="/ru/" class="logo">
+            <nuxt-link to="/" class="logo">
                 <span class="logo-shield"></span>
                 <img src="images/logo-white.png" alt="Приватный прокси-сервер" width="155" height="43"/>
-            </a>
+            </nuxt-link>
             <div class="head-stats">
                 <div class="head-stats-block language-box">
                     <span class="head-stats__item">Выбор языка</span>
@@ -77,23 +77,25 @@
             position: fixed;
             top: 0;
         }
+        &.inner{
+            background: #222d50;
+            border: none;
+        }
     }
 
 </style>
 <script>
 export default {
-  mounted() {
-    window.addEventListener('scroll',
+  async mounted() {
+    await window.addEventListener('scroll',
       () => document.querySelector('#navigation')
       .classList.toggle('sticky', window.scrollY > 61)
     )
+    // this.stats = await this.$axios.$get('https://proxyam.com/json/online/?unicapi=null')
   },
   data: () => ({
     stats: []
   }),
-  async mounted () {
-    this.stats = await this.$axios.$get('http://proxyam.zone/json/online/?unicapi=null')
-  },
   // data ({ params }) {
   //   return axios.get(`https://proxyam.zone/json/online/?unicapi=null`)
   //     .then((res) => {

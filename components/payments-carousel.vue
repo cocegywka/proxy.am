@@ -1,5 +1,6 @@
 <template>
     <div class="payment-box">
+    <plansSubtitle />
         <div class="center-wrapper">
             <carousel
                 ref="mycarousel"
@@ -70,7 +71,11 @@
 }
 </style>
 <script>
+    import plansSubtitle from './plansSubtitle.vue'
     export default {
+        components: {
+            plansSubtitle
+        },
         data() {
             return {
               showCarousel : false
