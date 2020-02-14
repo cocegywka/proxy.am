@@ -3,7 +3,7 @@
     <div itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="center-wrapper">
       <ul class="top-menu">
           <li itemprop="name"><a itemprop="url" href="/ru/faq">FAQ</a></li>
-          <li itemprop="name"><nuxt-link to="/plans">Цены</nuxt-link></li>
+          <li itemprop="name"><nuxt-link exact to="/plans">Цены</nuxt-link></li>
           <li itemprop="name"><a itemprop="url" href="/ru/list">Список прокси</a></li>
           <li itemprop="name"><a itemprop="url" href="/ru/articles">Статьи</a></li>
           <li itemprop="name"><a itemprop="url" href="/ru/news">Новости</a></li>

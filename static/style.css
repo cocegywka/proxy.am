@@ -218,6 +218,7 @@ table td:last-child{border-right:none;}
 .top-menu li a{font-size:14px;height:61px;padding:0;font-weight:400;line-height:61px;display:block;color:#5d6280;transition:0.3s ease;text-decoration: none;}
 .top-menu .active a,
 .top-menu li a:hover{color:#bec0c9;}
+.top-menu li .nuxt-link-active{color:#bec0c9;}
 .user{float:right;padding:15px 10px 7px 65px;margin:3px 0 0;background:url(images/ico-login.png) no-repeat 0 50%;}
 .user .title{font-size:16px;line-height:18px;margin:0 0 10px 8px;color:#333;display:block;font-weight:bold;}
 .user .wrap{width:100%;overflow:hidden;}
