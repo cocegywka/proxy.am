@@ -11,6 +11,7 @@
 			<ul class="row">
 	            <li class="col-sm-12" :class="`color--${item}`" v-for="item of 6" v-bind:key="item.id">
 	                <div class="item">
+                        <div class="clearfix">
                 		<div class="base-holder">
                 			<div class="heading">
 		                        <strong>Описание тарифа Silver Pack</strong>
@@ -64,7 +65,7 @@
 			                    </div>
 	                    	</div>
                 		</div>
-	                            <!-- <a href="#" class="btn more">Подробнее</a> -->
+                        </div>
 	                </div>
 	            </li>
 	        </ul>
@@ -116,8 +117,7 @@ export default {
     },
     methods: {
         setNewSelectedOption(selectedOption) {
-            console.log(selectedOption);
-             this.config.placeholder = selectedOption.value;
+            this.config.placeholder = selectedOption.value;
         }
     }
 }
@@ -210,6 +210,10 @@ export default {
             margin-bottom: 0;
             
             .item{
+                position: relative;
+                background: #2c3760;
+                border-radius: 15px;
+                margin-bottom: 30px;
                 &:before,
                 &:after{
                     content:'';
@@ -226,11 +230,6 @@ export default {
                     right: 14px;
                     transform: scale(-1,1);
                 }
-                position: relative;
-                background: #2c3760;
-                border-radius: 15px;
-                margin-bottom: 30px;
-                overflow: hidden;
                 .info-holder{
 					float: right;
 					width: 13%;
@@ -350,6 +349,8 @@ export default {
                     border-radius: 12px;
                     width: 100px;
                     margin: 0 auto 8px;
+                    position: relative;
+                    z-index: 1;
                     .dropdown-label-container {
                         border: 1px solid #3e4874 !important;
                         border-radius: 10px;
@@ -366,8 +367,17 @@ export default {
                             }
                         }
                     }
+                    .options{
+                        position: absolute;
+                        top: 100%;
+                        left: 0;
+                        width: 100%;
+                        background: #fff;
+                        border-radius:10px;
+                    }
                     &.expanded{
                         background: #fff;
+                        z-index: 2;
                     }
                 }
 
