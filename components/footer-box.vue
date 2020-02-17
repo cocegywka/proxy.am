@@ -3,7 +3,7 @@
         <div class="footer-holder">
             <div class="logo-box">
             <a href="/" class="footer-logo">
-                <img src="images/footer-logo.png" alt="">
+                <img src="../static/images/footer-logo.png" alt="">
             </a>
             <span class="slogan">Попробуйте наши прокси <br>БЕСПЛАТНО СЕЙЧАС!</span>
             <span class="copyright">© 2016-2018</span>
@@ -26,9 +26,9 @@
             </div>
             <div class="buttons">
                 <div class="webmoney-labels">
-                    <a href="http://www.free-kassa.ru/" rel="nofollow" target=_blank><img src="images/pay-by-freekassa.png" alt="free-kassa"></a>
-                    <a href="http://www.megastock.ru/" rel="nofollow" target=_blank><img src="images/we-accept.png" alt="www.megastock.ru"></a>
-                    <a href="https://passport.webmoney.ru/asp/certview.asp?wmid=361633232017" rel="nofollow" target=_blank><img src="images/attestated.png" alt="аттестат WM" title="Здесь находится аттестат нашего WM идентификатора 361633232017"></a>
+                    <a href="http://www.free-kassa.ru/" rel="nofollow" target=_blank><img src="../static/images/pay-by-freekassa.png" alt="free-kassa"></a>
+                    <a href="http://www.megastock.ru/" rel="nofollow" target=_blank><img src="../static/images/we-accept.png" alt="www.megastock.ru"></a>
+                    <a href="https://passport.webmoney.ru/asp/certview.asp?wmid=361633232017" rel="nofollow" target=_blank><img src="../static/images/attestated.png" alt="аттестат WM" title="Здесь находится аттестат нашего WM идентификатора 361633232017"></a>
                     <a href="//www.liveinternet.ru/click" class="counter" target="_blank" rel="nofollow"><img src="//counter.yadro.ru/logo?44.11" width="31" height="31" alt="" title="LiveInternet"></a>
                 </div>
             </div>
