@@ -91,3 +91,6 @@ sw.*
 
 #input files
 input
+
+#images
+static/images
