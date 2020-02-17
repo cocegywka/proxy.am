@@ -5,7 +5,7 @@
           <li itemprop="name"><a itemprop="url" href="/ru/faq">FAQ</a></li>
           <li itemprop="name"><nuxt-link exact to="/plans">Цены</nuxt-link></li>
           <li itemprop="name"><a itemprop="url" href="/ru/list">Список прокси</a></li>
-          <li itemprop="name"><a itemprop="url" href="/ru/articles">Статьи</a></li>
+          <li itemprop="name"><nuxt-link exact to="/blogs">Статьи</nuxt-link></li>
           <li itemprop="name"><a itemprop="url" href="/ru/news">Новости</a></li>
           <li itemprop="name"><a itemprop="url" href="/ru/contacts">Контакты</a></li>
       </ul>

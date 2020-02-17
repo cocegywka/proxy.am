@@ -2939,3 +2939,9 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 .fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
   opacity: 0;
 }
+.page-enter-active, .page-leave-active {
+  transition: opacity 0s
+}
+.page-enter, .page-leave-active {
+  opacity: 0
+}
