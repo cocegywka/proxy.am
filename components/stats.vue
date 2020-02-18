@@ -72,7 +72,7 @@
         width:100%;
         padding: 18px 0 20px;
         border-bottom: 1px solid #242b48;
-        background: #2a3150;
+        background: #2c3760;
         &.sticky{
             position: fixed;
             top: 0;
