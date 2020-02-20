@@ -22,6 +22,7 @@
     "sass-loader": "^8.0.2",
     "vue": "^2.6.11",
     "vue-carousel": "^0.18.0",
+    "vue-dropdowns": "^1.1.1",
     "vue-dynamic-dropdown": "^1.0.12"
   },
   "devDependencies": {

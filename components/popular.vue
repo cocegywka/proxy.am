@@ -19,10 +19,11 @@
                             </ul>
                             <div class="col-sm-5">
                                 <strong class="price">{{item}}0<span>$</span></strong>
-                                <vue-dropdown
-                                    :config="config"
-                                    @setSelectedOption="setNewSelectedOption($event);"
-                                ></vue-dropdown>
+                                <dropdown :options="arrayOfObjects_2" 
+                                    :selected="object_2" 
+                                    v-on:updateOption="methodToRunOnSelect" 
+                                    :closeOnOutsideClick="true">
+                                </dropdown>
                             </div>
                         </div>
                         <div class="buttons row">
@@ -50,21 +51,17 @@ export default {
     },
     data: function() {
         return {
-            config: {
-                options: [
-                    {
-                        value: "в месяц"
-                    },
-                    {
-                        value: "в год"
-                    },
-                ],
-                width: "100px",
-                placeholder: "в месяц",
-                textColor: "#7c97af",
-                borderRadius: "10px",
-                backgroundColor: "none"
-            }
+            arrayOfObjects_2: [
+                {
+                    name: 'в месяц'
+                },
+                {
+                    name: 'в год'
+                },
+            ],
+            object_2: {
+              name: 'в месяц',
+            },
         }
     },
     methods: {
@@ -107,7 +104,7 @@ export default {
                 background: #2c3760;
                 border-radius: 15px;
                 margin-bottom: 30px;
-                overflow: hidden;
+                // overflow: hidden;
                 .heading {
                     height: 60px;
                     padding: 0 25px;

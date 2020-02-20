@@ -52,14 +52,16 @@
                 		<div class="info-holder">
 		                    <div class="info clearfix">
 	                            <strong class="price">{{item}}0<span>$</span></strong>
-	                            <vue-dropdown
-	                                :config="config2"
-	                                @setSelectedOption="setNewSelectedOption($event);"
-	                            ></vue-dropdown>
-	                            <vue-dropdown
-	                                :config="config"
-	                                @setSelectedOption="setNewSelectedOption($event);"
-	                            ></vue-dropdown>
+                                <dropdown :options="arrayOfObjects_1" 
+                                    :selected="object_1" 
+                                    v-on:updateOption="methodToRunOnSelect" 
+                                    :closeOnOutsideClick="true">
+                                </dropdown>
+                                <dropdown :options="arrayOfObjects_2" 
+                                    :selected="object_2" 
+                                    v-on:updateOption="methodToRunOnSelect" 
+                                    :closeOnOutsideClick="true">
+                                </dropdown>
 	                            <div class="buttons">
 		                            <a href="#" class="btn buy">Купить</a>
 			                    </div>
@@ -83,39 +85,34 @@ export default {
     },
     data: function() {
         return {
-            config: {
-                options: [
-                    {
-                        value: "в месяц"
-                    },
-                    {
-                        value: "в год"
-                    },
-                ],
-                width: "100px",
-                placeholder: "в месяц",
-                textColor: "#7c97af",
-                borderRadius: "10px",
-                backgroundColor: "none"
+            arrayOfObjects_1: [
+                {
+                    name: 'Пт 500'
+                },
+                {
+                    name: 'Пт 1000'
+                },
+            ],
+            object_1: {
+              name: 'Пт 500',
             },
-            config2: {
-                options: [
-                    {
-                        value: "Пт 500"
-                    },
-                    {
-                        value: "Пт 500"
-                    },
-                ],
-                width: "100px",
-                placeholder: "Пт 500",
-                textColor: "#7c97af",
-                borderRadius: "10px",
-                backgroundColor: "none"
-            }
+            arrayOfObjects_2: [
+                {
+                    name: 'в месяц'
+                },
+                {
+                    name: 'в год'
+                },
+            ],
+            object_2: {
+              name: 'в месяц',
+            },
         }
     },
     methods: {
+        methodToRunOnSelect(payload) {
+            this.object = payload;
+        },
         setNewSelectedOption(selectedOption) {
             this.config.placeholder = selectedOption.value;
         }
