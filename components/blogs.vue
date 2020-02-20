@@ -76,13 +76,19 @@ export default {
 					width: 134px;
 					height: 35px;
 					font-size: 13px;
-					line-height: 35px;
+					line-height: 33px;
 					text-align: center;
 					text-decoration: none;
 					color: #fff;
 					border-radius: 20px;
 					background: #0258b9;
+					border: 1px solid #0258b9;
 					display: block;
+					transition: all 0.3s ease;
+					&:hover{
+						color: #469AFD;
+						background: none;
+					}
 				}
 			}
 		}
