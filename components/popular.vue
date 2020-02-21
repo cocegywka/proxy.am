@@ -65,6 +65,9 @@ export default {
         }
     },
     methods: {
+        methodToRunOnSelect(payload) {
+            this.object = payload;
+        },
         setNewSelectedOption(selectedOption) {
             console.log(selectedOption);
              this.config.placeholder = selectedOption.value;
