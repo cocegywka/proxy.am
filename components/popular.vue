@@ -68,10 +68,6 @@ export default {
         methodToRunOnSelect(payload) {
             this.object = payload;
         },
-        setNewSelectedOption(selectedOption) {
-            console.log(selectedOption);
-             this.config.placeholder = selectedOption.value;
-        }
     }
 }
 </script>
@@ -242,7 +238,7 @@ export default {
                     }
                     .more{
                         border-top: 1px solid #eaeaf0;
-                        border-radius: 0 0 0 15px;
+                        border-radius: 0 0 0 7px;
                         &:hover{
                             color: #232c56;
                             background: #eaeaf0;
@@ -252,7 +248,7 @@ export default {
                         background: #237c7c;
                         border:1px solid #237c7c;
                         color: #fff;
-                        border-radius: 0 0 15px 0;
+                        border-radius: 0 0 7px 0;
                         &:hover{
                             background: #fff;
                             color: #237c7c;
