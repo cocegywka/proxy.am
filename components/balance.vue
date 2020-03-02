@@ -32,7 +32,7 @@
                                 <div class="currency-block">
                                     <span class="title">Курс валюты</span>
                                     <div class="row">
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-5">
                                             <div class="img-holder">
                                                 <img src="../static/images/currency_ico_1.png" alt="">
                                             </div>
@@ -41,7 +41,7 @@
                                                 <span>RUB</span>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-7">
                                             <div class="img-holder">
                                                 <img src="../static/images/currency_ico_2.png" alt="">
                                             </div>
@@ -301,8 +301,8 @@
                 }
                 .express-block{
                     float: left;
-                    width: 50%;
-                    padding: 11px 70px 0;
+                    width: 45%;
+                    padding: 11px 50px 0;
                     .title{
                         display: block;
                         color: #9c9faa;
@@ -313,11 +313,12 @@
                 }
                 .currency-block{
                     float: right;
-                    width: 20%;
+                    width: 25%;
                     padding: 11px 0 0;
                     .row{
                         margin: 0;
-                        .col-sm-6{
+                        .col-sm-7,
+                        .col-sm-5{
                             padding: 0;
                         }
                     }
@@ -327,6 +328,7 @@
                         font-size: 13px;
                         line-height: 15px;
                         margin: 0 0 16px;
+                        padding:  0 40px 0 0;
                         text-align: center;
                     }
                     .img-holder{
@@ -448,6 +450,12 @@
                     width: 150px;
                     display: block;
                     margin: 0 auto;
+                    text-decoration: none;
+                    transition: all 0.3s ease-in-out;
+                    &:hover{
+                        background: #4494ef;
+                        color: #fff;
+                    }
                 }
             }
         }
