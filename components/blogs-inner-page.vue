@@ -41,7 +41,7 @@
                             <strong>Цена</strong>
                         </div>
                         <div class="plans-details">
-                            <div v-for="item of 4" class="plans-item clearfix" :class="`color--${item}`">
+                            <div v-for="item of 4" class="plans-item clearfix" :class="`color--${item}`" :key="item">
                                 <div class="title">
                                     <strong>Silver Pack</strong>
                                     <ul class="rating">

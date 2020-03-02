@@ -122,7 +122,7 @@ export default {
 <style lang="scss">
 	.inner-background{
 		background: #f8f8fb url('../static/images/bg_inner.png') repeat-x;
-		min-height: 800px;
+		// min-height: 800px;
         position: relative;
         &:before,
         &:after{
