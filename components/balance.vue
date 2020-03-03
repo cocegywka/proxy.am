@@ -289,13 +289,17 @@
                             line-height: 34px;
                             float: left;
                             height: auto;
-                            width: 70px;
+                            width: 80px;
+                            padding: 0;
                         }
                         .usd{
                             color: #232a46;
                             font-size: 32px;
                             line-height: 34px;
-                            float: left;
+                            display: block;
+                            height: 1%;
+                            overflow: hidden;
+                            text-align: right;
                         }
                     }
                 }
@@ -329,7 +333,6 @@
                         line-height: 15px;
                         margin: 0 0 16px;
                         padding:  0 40px 0 0;
-                        text-align: center;
                     }
                     .img-holder{
                         float: left;
