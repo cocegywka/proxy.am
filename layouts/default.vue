@@ -8,25 +8,30 @@
 .inner-background{
   background: #f8f8fb url('../static/images/bg_inner.png') repeat-x;
   /* min-height: 800px; */
-      position: relative;
-      &:before,
-      &:after{
-          content:'';
-          position: absolute;
-          left: 50%;
-          top: 0;
-          background: url('../static/images/bg_inner_decor.png') no-repeat;
-          width: 177px;
-          height: 608px;
-          margin-left: -660px;
-      }
-      &:before{
-          left: auto;
-          right: 50%;
-          transform: scale(-1,1);
-          margin-left: 0;
-          margin-right: -660px;
-      }
+  position: relative;
+  &:before,
+  &:after{
+      content:'';
+      position: absolute;
+      left: 50%;
+      top: 0;
+      background: url('../static/images/bg_inner_decor.png') no-repeat;
+      width: 177px;
+      height: 608px;
+      margin-left: -660px;
+  }
+  &:before{
+      left: auto;
+      right: 50%;
+      transform: scale(-1,1);
+      margin-left: 0;
+      margin-right: -660px;
+  }
+  .container{
+    background: none;
+    box-shadow: none;
+    padding: 0;
+  }
 }
 .heading{
   padding: 20px 0 0;

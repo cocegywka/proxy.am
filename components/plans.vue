@@ -120,7 +120,6 @@ export default {
 }
 </script>
 <style lang="scss">
-	
 	.plans-holder{
 		width: 1000px;
 		margin:0 auto;
