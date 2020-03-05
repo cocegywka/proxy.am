@@ -152,11 +152,6 @@ export default {
             interval: 1000,
         }
     }),
-    methods: {
-        back() {
-            this.$router.back();
-        },
-    }
 }
 </script>
 <style lang="scss">

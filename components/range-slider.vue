@@ -19,7 +19,6 @@ export default {
     }),
     methods: {
         changePrice() {
-            console.log(this.value)
             this.$emit('toggle', this.value )
         }
     }
