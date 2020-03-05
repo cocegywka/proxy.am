@@ -164,7 +164,7 @@ export default {
 
 <style lang="scss">
 #pack-inner{
-    margin:0 0 20px;
+    padding:0 0 20px;
     .pack-box{
         width: 1000px;
         margin: 0 auto 20px;
