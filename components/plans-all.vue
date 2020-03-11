@@ -9,91 +9,93 @@
 				<li><nuxt-link to="/plans">Полезная информация</nuxt-link></li>
 			</ul> -->
 			<div class="plans-page">
-                <div class="plans-info">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <img src="../static/images/plans_info_1.png" alt="">
-                            <p>На всех тарифах прокси можно выбрать оптимальное для Вас количество рабочих потоков. </p>
-                        </div>
-                        <div class="col-sm-6">
-                            <img src="../static/images/plans_info_2.png" alt="">
-                            <p>Обратите внимание, что все тарифные планы на сроки месяц и более стоят намного дешевле!</p>
-                        </div>
-                    </div>
+        <div class="plans-info">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="../static/images/plans_info_1.png" alt="">
+                    <p>На всех тарифах прокси можно выбрать оптимальное для Вас количество рабочих потоков. </p>
                 </div>
-                <div class="recommend">
-                    <div class="table">
-                        <div class="heading">
-                            <strong>Пакеты прокси</strong>
-                            <strong>Онлайн</strong>
-                            <strong>Параметры</strong>
-                            <strong>Графики</strong>
-                            <strong>Цена</strong>
-                        </div>
-                        <div class="plans-details">
-                            <div v-for="item of 7" class="plans-item clearfix"  :class="[{disable: item == 7}, `color--${item}`]" :key="item">
-                                <div :class="">
-                                    <div class="title">
-                                        <strong>Silver Pack</strong>
-                                        <ul class="rating">
-                                            <li class="active"></li>
-                                            <li class="active"></li>
-                                            <li class="active"></li>
-                                            <li></li>
-                                            <li></li>
-                                        </ul>
-                                    </div>
-                                    <div class="online">
-                                        <span>1000</span>
-                                    </div>
-                                    <div class="params">
-                                        <div class="range-slider">
-                                            <div class="row">
-                                                <span class="col-sm-3">Аренда</span>
-                                                <div class="col-sm-5">
-                                                    <vue-slider
-                                                        ref="slider"
-                                                        v-model="valueRent"
-                                                        v-bind="optionsRent"
-                                                    ></vue-slider>
-                                                </div>
-                                                <em class="col-sm-4">{{ valueRent }} Дней</em>
-                                            </div>
+                <div class="col-sm-6">
+                    <img src="../static/images/plans_info_2.png" alt="">
+                    <p>Обратите внимание, что все тарифные планы на сроки месяц и более стоят намного дешевле!</p>
+                </div>
+            </div>
+        </div>
+        <div class="recommend">
+            <div class="table">
+                <div class="heading">
+                    <strong>Пакеты прокси</strong>
+                    <strong>Онлайн</strong>
+                    <strong>Параметры</strong>
+                    <strong>Графики</strong>
+                    <strong>Цена</strong>
+                </div>
+                <div class="plans-details">
+                    <div v-for="item of 7" class="plans-item clearfix"  :class="[{disable: item == 7}, `color--${item}`]" :key="item">
+                        <div :class="">
+                            <div class="title">
+                                <strong>Silver Pack</strong>
+                                <ul class="rating">
+                                    <li class="active"></li>
+                                    <li class="active"></li>
+                                    <li class="active"></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="online">
+                                <span>1000</span>
+                            </div>
+                            <div class="params">
+                                <div class="range-slider">
+                                    <div class="row">
+                                        <span class="col-sm-3">Аренда</span>
+                                        <div class="col-sm-5">
+                                            <vue-slider
+                                                ref="slider"
+                                                v-model="valueRent"
+                                                v-bind="optionsRent"
+                                            ></vue-slider>
                                         </div>
-                                        <div class="range-slider">
-                                            <div class="row">
-                                                <span class="col-sm-3">Потоки</span>
-                                                <div class="col-sm-5">
-                                                    <vue-slider
-                                                        ref="slider"
-                                                        v-model="valueStream"
-                                                        v-bind="optionsStream"
-                                                    ></vue-slider>
-                                                </div>
-                                                <em class="col-sm-4">{{ valueStream }}</em>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="graphs">
-                                        <ul class="graph-list">
-                                            <li><a href="#" @click.prevent=""><span class="ico"></span></a></li>
-                                            <li><a href="#" @click.prevent=""><span class="ico"></span></a></li>
-                                            <li><a href="#" @click.prevent=""><span class="ico"></span></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="price">
-                                        <em v-if="item !== 7">{{item}}8$</em>
-                                        <em v-else>0$</em>
-                                    </div>
-                                    <div class="button">
-                                        <a href="#" class="btn">Купить</a>
-                                        <a href="#" class="btn info">Инфо</a>
+                                        <em class="col-sm-4">{{ valueRent }} Дней</em>
                                     </div>
                                 </div>
+                                <div class="range-slider">
+                                    <div class="row">
+                                        <span class="col-sm-3">Потоки</span>
+                                        <div class="col-sm-5">
+                                            <vue-slider
+                                                ref="slider"
+                                                v-model="valueStream"
+                                                v-bind="optionsStream"
+                                            ></vue-slider>
+                                        </div>
+                                        <em class="col-sm-4">{{ valueStream }}</em>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="graphs">
+                                <ul class="graph-list">
+                                    <li><a href="#" @click.prevent=""><span class="ico"></span></a></li>
+                                    <li><a href="#" @click.prevent=""><span class="ico"></span></a></li>
+                                    <li><a href="#" @click.prevent=""><span class="ico"></span></a></li>
+                                </ul>
+                            </div>
+                            <div class="price">
+                                <span class="sale">35$</span>
+                                <em v-if="item !== 7">{{item}}8$</em>
+                                <em v-else>0$</em>
+                            </div>
+                            <div class="button">
+                                <span class="sale">-15%</span>
+                                <a href="#" class="btn">Купить</a>
+                                <a href="#" class="btn info">Инфо</a>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
 			</div>
 		</div>
 	</div>
@@ -453,7 +455,7 @@ export default {
                                         display: inline-block;
                                         vertical-align: middle;
                                     }
-                                    
+
                                 }
                                 &:first-child{
                                     a{
@@ -485,6 +487,7 @@ export default {
                     .price{
                         width: 120px;
                         float: left;
+                        position: relative;
                         em{
                             display: block;
                             text-align: center;
@@ -492,11 +495,49 @@ export default {
                             font-style: normal;
                             font: bold 36px/79px 'Comfortaa';
                         }
+                        .sale{
+                            color: #fff;
+                            font-size: 12px;
+                            line-height: 21px;
+                            background: url('../static/images/sale_01.png') no-repeat;
+                            position: absolute;
+                            top: 50%;
+                            margin-top: -11px;
+                            left: -14px;
+                            text-align: center;
+                            width: 43px;
+                            height: 21px;
+                            &:after{
+                                content: '';
+                                position: absolute;
+                                top: 10px;
+                                left: 9px;
+                                width: 22px;
+                                height: 1px;
+                                transform: rotate(-45deg);
+                                background: #fcd04c;
+                            }
+                        }
                     }
                     .button{
                         width: 100px;
                         float: left;
                         padding: 20px 0 0;
+                        position: relative;
+                        .sale{
+                            color: #fff;
+                            font-size: 12px;
+                            line-height: 16px;
+                            background: url('../static/images/sale_02.png') no-repeat;
+                            position: absolute;
+                            top: 2px;
+                            margin-left: -18px;
+                            left: 50%;
+                            text-align: center;
+                            width: 35px;
+                            height: 20px;
+                            z-index: 1;
+                        }
                         .btn{
                             color: #fff;
                             background: #237c7c;
