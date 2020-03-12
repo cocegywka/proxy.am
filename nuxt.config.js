@@ -32,7 +32,8 @@ export default {
   plugins: [
     { src: '~plugins/vue-carousel.js', ssr: false },
     { src: '~plugins/vue-dropdowns.js', ssr: false },
-    { src: '~plugins/vue-slider.js', ssr: false }
+    { src: '~plugins/vue-slider.js', ssr: false },
+    { src: '~plugins/vue-scrollto.js', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules

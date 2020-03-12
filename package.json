@@ -24,6 +24,7 @@
     "vue-carousel": "^0.18.0",
     "vue-dropdowns": "^1.1.1",
     "vue-dynamic-dropdown": "^1.0.12",
+    "vue-scrollto": "^2.17.1",
     "vue-slider-component": "^3.1.1"
   },
   "devDependencies": {

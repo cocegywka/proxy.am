@@ -2,9 +2,9 @@
   <div class="menu-top">
     <div itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="center-wrapper">
       <ul class="top-menu">
-          <li itemprop="name"><a itemprop="url" href="/ru/faq">FAQ</a></li>
+          <li itemprop="name"><nuxt-link exact to="/faq">FAQ</nuxt-link></li>
           <li itemprop="name"><nuxt-link exact to="/plans">Цены</nuxt-link></li>
-          <li itemprop="name"><a itemprop="url" href="/ru/list">Список прокси</a></li>
+          <li itemprop="name"><nuxt-link exact to="/tarifs">Список прокси</nuxt-link></li>
           <li itemprop="name"><nuxt-link exact to="/blogs">Статьи</nuxt-link></li>
           <li itemprop="name"><a itemprop="url" href="/ru/news">Новости</a></li>
           <li itemprop="name"><a itemprop="url" href="/ru/contacts">Контакты</a></li>
