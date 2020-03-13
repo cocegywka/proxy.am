@@ -40,6 +40,9 @@
     .heading{
         margin-bottom: 30px;
     }
+    .container{
+        max-width: 1000px;
+    }
     .news{
         border-radius: 15px;
         overflow: hidden;
