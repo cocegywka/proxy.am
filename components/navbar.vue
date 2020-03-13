@@ -6,7 +6,7 @@
           <li itemprop="name"><nuxt-link exact to="/plans">Цены</nuxt-link></li>
           <li itemprop="name"><nuxt-link exact to="/tarifs">Список прокси</nuxt-link></li>
           <li itemprop="name"><nuxt-link exact to="/blogs">Статьи</nuxt-link></li>
-          <li itemprop="name"><a itemprop="url" href="/ru/news">Новости</a></li>
+          <li itemprop="name"><nuxt-link exact to="/news">Новости</nuxt-link></li>
           <li itemprop="name"><a itemprop="url" href="/ru/contacts">Контакты</a></li>
       </ul>
       <div class="profile">

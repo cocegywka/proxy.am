@@ -715,13 +715,13 @@ table td:last-child{border-right:none;}
 .proxylist-box .select-block .title{font-size:18px;line-height:20px;margin:0 0 10px;color:#444E5D;display:block;text-transform:uppercase;font-weight:bold;}
 .proxylist-box{padding:0 20px 0;}
 .proxylist-box .select-block select{width:150px;}
-.paging{list-style:none;margin:0 0 5px;padding:0;font-size:0;line-height:0;letter-spacing:-1px;text-align:center;}
+/* .paging{list-style:none;margin:0 0 5px;padding:0;font-size:0;line-height:0;letter-spacing:-1px;text-align:center;}
 .paging li{display:inline-block;margin:0 5px 10px;font-size:16px;line-height:30px;letter-spacing:0;background:#fff;border-radius:5px;border-bottom:1px solid #ccc;width:30px;height:30px;text-align:center;transition:0.3s ease;}
 .paging li:hover,
 .paging li.active{background:#f7f7f7;font-weight:bold;}
 .paging li a{display:block;}
 .paging li:first-child,
-.paging li:last-child{width:auto;padding:0 8px;}
+.paging li:last-child{width:auto;padding:0 8px;} */
 .proxy-table{text-align:center;color:#444E5D;background:#fff;border-radius:5px;}
 .proxy-table .heading{width:100%;overflow:hidden;font-weight:bold;font-size:16px;line-height:18px;padding:10px 0 10px;text-transform:uppercase;}
 .proxy-table .row{width:100%;overflow:hidden;padding:10px 0;border-top:1px solid #ccc;margin: 0;}
@@ -1345,14 +1345,14 @@ table.jqplot-table-legend {border: 0px;background-color: rgba(100,100,100, 0.0);
 #plans .popover{right: -10px;left: auto;top: 30px;max-width: 100px;}
 #plans .popover .arrow{top: auto;bottom: -11px;transform: rotate(180deg);margin-left: 19px;}
 
-.news-list{list-style: none;margin: -40px 0 0;padding: 0 0 0;overflow: hidden;font-size:  0;line-height:  0;letter-spacing: -1px;}
+/* .news-list{list-style: none;margin: -40px 0 0;padding: 0 0 0;overflow: hidden;font-size:  0;line-height:  0;letter-spacing: -1px;}
 .news-list li{display: inline-block;width: 49%;color: #444E5D;font-size: 14px;line-height: 20px;letter-spacing: 0;border-right: 1px dashed #ccc;margin: 60px 0 0;vertical-align: top;}
 .news-list li:nth-child(2n){margin: 60px 0 0 2%;border: none;}
 .news-list li .date{float: left;background: #f0f0f0;padding: 5px;color: #444E5D;float: left;border-radius: 50%;width: 80px;height: 80px;position: relative;margin: 0 20px 0 0;}
 .news-list li .day{font-size: 50px;display: block;line-height: 60px;text-align: center;margin: 0px 0 0;font-weight: bold;letter-spacing: -0.10em;position: absolute;left: 0px;width: 100%;text-align: center;}
 .news-list li .month{font-size: 12px;color: #444E5D;position: absolute;top: -0px;right: -0px;background: #fff;border-radius: 50%;text-align: center;width: 25px;height: 25px;line-height: 25px;border: 1px solid #999;}
 .news-list li .year{position: absolute;bottom: 10px;text-align: center;width: 100%;display: block;color: #444E5D;font-size: 12px;line-height: 18px;}
-.news-list li p{margin: 0 0 0 0;padding: 14px 15px 0 0;font-size: 16px;height: 1%;overflow: hidden;line-height: 20px;}
+.news-list li p{margin: 0 0 0 0;padding: 14px 15px 0 0;font-size: 16px;height: 1%;overflow: hidden;line-height: 20px;} */
 
 .feedback-list{list-style: none;padding: 0;margin: 0;}
 .feedback-list li{width: 100%;overflow: hidden;border-bottom: 1px dashed #ccc;padding: 10px 0;}
