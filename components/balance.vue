@@ -147,12 +147,7 @@
                                 </div>
                             </div>
                             <ul class="paging">
-                                <li><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li>...</li>
-                                <li><a href="#">5</a></li>
-                                <li><a href="#">10</a></li>
+                                <li><a href="#">1</a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li>...</li><li><a href="#">5</a></li><li><a href="#">10</a></li>
                             </ul>
                         </div>
                     </div>
@@ -580,29 +575,7 @@
                     color: #9c9faa;
                 }
             }
-            .paging{
-                background: #fff;
-                padding: 10px 0;
-                li{
-                    border-left: 1px solid #ebecf2;
-                    padding: 0;
-                    width: 35px;
-                    height: 21px;
-                    font-size: 14px;
-                    line-height: 21px;
-                    margin: 0;
-                    &:first-child{
-                        border: none;
-                    }
-                    &:hover{
-                        background: none;
-                        font-weight: normal;
-                    }
-                    a{
-                        color: #787f9f;
-                    }
-                }
-            }
+            
         }
         .check-payment{
             background: #fff;
@@ -687,5 +660,40 @@
     /* Firefox */
     input[type=number] {
         -moz-appearance:textfield;
+    }
+
+    .paging{
+        background: #fff;
+        padding: 10px 0;
+        margin: 0;
+        text-align: center;
+        li{
+            display: inline-block;
+            border: 0;
+            border-left: 1px solid #ebecf2;
+            border-radius: 0;
+            padding: 0;
+            width: 35px;
+            height: 21px;
+            font-size: 14px;
+            line-height: 21px;
+            margin: 0;
+            padding: 0;
+            &:first-child{
+                border: none;
+            }
+            &.active,
+            &:hover{
+                background: none;
+                font-weight: normal;
+                a{
+                    color: #4295ef;
+                }
+            }
+            a{
+                text-decoration: none;
+                color: #787f9f;
+            }
+        }
     }
 </style>
