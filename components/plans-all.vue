@@ -31,66 +31,64 @@
                     <strong>Цена</strong>
                 </div>
                 <div class="plans-details">
-                    <div v-for="item of 7" class="plans-item clearfix"  :class="[{disable: item == 7}, `color--${item}`]" :key="item">
-                        <div :class="">
-                            <div class="title">
-                                <strong>Silver Pack</strong>
-                                <ul class="rating">
-                                    <li class="active"></li>
-                                    <li class="active"></li>
-                                    <li class="active"></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                            </div>
-                            <div class="online">
-                                <span>1000</span>
-                            </div>
-                            <div class="params">
-                                <div class="range-slider">
-                                    <div class="row">
-                                        <span class="col-sm-3">Аренда</span>
-                                        <div class="col-sm-5">
-                                            <vue-slider
-                                                ref="slider"
-                                                v-model="valueRent"
-                                                v-bind="optionsRent"
-                                            ></vue-slider>
-                                        </div>
-                                        <em class="col-sm-4">{{ valueRent }} Дней</em>
+                    <div v-for="item of 7" class="plans-item clearfix"  :class="[{sale: item == 2}, {disable: item == 7}, `color--${item}`]" :key="item">
+                        <div class="title">
+                            <strong>Silver Pack</strong>
+                            <ul class="rating">
+                                <li class="active"></li>
+                                <li class="active"></li>
+                                <li class="active"></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="online">
+                            <span>1000</span>
+                        </div>
+                        <div class="params">
+                            <div class="range-slider">
+                                <div class="row">
+                                    <span class="col-sm-3">Аренда</span>
+                                    <div class="col-sm-5">
+                                        <vue-slider
+                                            ref="slider"
+                                            v-model="valueRent"
+                                            v-bind="optionsRent"
+                                        ></vue-slider>
                                     </div>
-                                </div>
-                                <div class="range-slider">
-                                    <div class="row">
-                                        <span class="col-sm-3">Потоки</span>
-                                        <div class="col-sm-5">
-                                            <vue-slider
-                                                ref="slider"
-                                                v-model="valueStream"
-                                                v-bind="optionsStream"
-                                            ></vue-slider>
-                                        </div>
-                                        <em class="col-sm-4">{{ valueStream }}</em>
-                                    </div>
+                                    <em class="col-sm-4">{{ valueRent }} Дней</em>
                                 </div>
                             </div>
-                            <div class="graphs">
-                                <ul class="graph-list">
-                                    <li><a href="#" @click.prevent=""><span class="ico"></span></a></li>
-                                    <li><a href="#" @click.prevent=""><span class="ico"></span></a></li>
-                                    <li><a href="#" @click.prevent=""><span class="ico"></span></a></li>
-                                </ul>
+                            <div class="range-slider">
+                                <div class="row">
+                                    <span class="col-sm-3">Потоки</span>
+                                    <div class="col-sm-5">
+                                        <vue-slider
+                                            ref="slider"
+                                            v-model="valueStream"
+                                            v-bind="optionsStream"
+                                        ></vue-slider>
+                                    </div>
+                                    <em class="col-sm-4">{{ valueStream }}</em>
+                                </div>
                             </div>
-                            <div class="price">
-                                <span class="sale">35$</span>
-                                <em v-if="item !== 7">{{item}}8$</em>
-                                <em v-else>0$</em>
-                            </div>
-                            <div class="button">
-                                <span class="sale">-15%</span>
-                                <a href="#" class="btn">Купить</a>
-                                <a href="#" class="btn info">Инфо</a>
-                            </div>
+                        </div>
+                        <div class="graphs">
+                            <ul class="graph-list">
+                                <li><a href="#" @click.prevent=""><span class="ico"></span></a></li>
+                                <li><a href="#" @click.prevent=""><span class="ico"></span></a></li>
+                                <li><a href="#" @click.prevent=""><span class="ico"></span></a></li>
+                            </ul>
+                        </div>
+                        <div class="price">
+                            <span class="sale">35$</span>
+                            <em v-if="item !== 7">{{item}}8$</em>
+                            <em v-else>0$</em>
+                        </div>
+                        <div class="button">
+                            <span class="sale">-15%</span>
+                            <a href="#" class="btn">Купить</a>
+                            <a href="#" class="btn info">Инфо</a>
                         </div>
                     </div>
                 </div>
@@ -496,6 +494,7 @@ export default {
                             font: bold 36px/79px 'Comfortaa';
                         }
                         .sale{
+                            display: none;
                             color: #fff;
                             font-size: 12px;
                             line-height: 21px;
@@ -525,6 +524,7 @@ export default {
                         padding: 20px 0 0;
                         position: relative;
                         .sale{
+                            display: none;
                             color: #fff;
                             font-size: 12px;
                             line-height: 16px;
@@ -558,6 +558,9 @@ export default {
                         .info{
                             display: none;
                         }
+                    }
+                    &.sale{
+                        .sale{display: block;}
                     }
                 }
                 .color--2 {
