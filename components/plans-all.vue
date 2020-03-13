@@ -157,6 +157,9 @@ export default {
 <style lang="scss">
 .plans-page{
     padding: 30px 0 0;
+    .container{
+        max-width: 1000px;
+    }
     .plans-info{
         background: #fff;
         border-top: 5px solid #f0f0f2;
