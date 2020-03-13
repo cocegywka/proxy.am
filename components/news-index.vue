@@ -106,4 +106,38 @@
         }
     }
 }
+.paging{
+    background: #fff;
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+    li{
+        display: inline-block;
+        border: 0;
+        border-left: 1px solid #ebecf2;
+        border-radius: 0;
+        padding: 0;
+        width: 35px;
+        height: 21px;
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0;
+        padding: 0;
+        &:first-child{
+            border: none;
+        }
+        &.active,
+        &:hover{
+            background: none;
+            font-weight: normal;
+            a{
+                color: #4295ef;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: #787f9f;
+        }
+    }
+}
 </style>
