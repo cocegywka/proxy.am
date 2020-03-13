@@ -70,6 +70,9 @@
 <style lang="scss">
 #faq{
     padding: 0 0 20px;
+    .container{
+        max-width: 1000px;
+    }
     .faq{
         background: #fff;
         margin: 30px 0 0;
