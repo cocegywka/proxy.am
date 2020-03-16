@@ -572,7 +572,7 @@ table td:last-child{border-right:none;}
 .article-list li{padding:0 20px 15px;margin-bottom:15px;background:#fff;box-shadow:0 0px 3px #ccc;border-radius:3px;}
 .content__date{margin:0 0 15px;display:block;text-align:center;font-size:18px;line-height:20px;color:#444E5D;position:relative;display:none;}
 .content__date:after{content:"";background:#444E5D;height:1px;width:100px;position:absolute;bottom:-5px;left:50%;margin:0 0 0 -50px;}
-.contacts{line-height:21px;}
+/* .contacts{line-height:21px;} */
 .form-review{padding-top:10px;}
 .form-review label{width:150px;vertical-align:top;}
 .msg-error{min-width:235px;border:1px solid #FEA9A9;padding:10px;margin-bottom:10px;text-align:center;border-radius:3px;list-style:none;background-color:#f2dede;}
@@ -841,13 +841,13 @@ table td:last-child{border-right:none;}
 .form-contact-auth textarea.field{resize:none;overflow:auto;height:100px;}
 .form-contact textarea.field{height:100px;}
 .answer-form textarea.field{height:200px;}
-.contacts{list-style:none;margin:0 auto;padding:0;width:400px;overflow:hidden;}
+/* .contacts{list-style:none;margin:0 auto;padding:0;width:400px;overflow:hidden;}
 .contacts li{margin:0 0 7px;width:100%;overflow:hidden;border-radius:5px;}
 .contacts .img-box{float:left;background:#f6f6f6;border-right:1px solid #ccc;}
 .contacts .img-box span{display:table-cell;vertical-align:middle;height:44px;width:44px;text-align:center;}
 .contacts strong,
 .contacts a{height:1%;overflow:hidden;background:#f6f6f6;line-height:44px;text-align:center;font-size:15px;display:block;color:#333;font-weight:bold;}
-.contacts .title{float:left;border-right:1px solid #ccc;background:#f6f6f6;line-height:44px;font-size:15px;font-weight:bold;text-transform:uppercase;width:100px;text-align:center;color:#333;}
+.contacts .title{float:left;border-right:1px solid #ccc;background:#f6f6f6;line-height:44px;font-size:15px;font-weight:bold;text-transform:uppercase;width:100px;text-align:center;color:#333;} */
 .ticket-table{text-align:center;color:#444E5D;background:#fff;border-radius:5px;margin:0 0 10px;}
 .ticket-table .ticket-title{float:left;width:25%;text-align:center;font-weight:bold;font-size:16px;line-height:18px;text-transform:uppercase;}
 .ticket-table .ticket-row{width:100%;overflow:hidden;padding:10px 0;border-bottom:1px solid #ccc;}

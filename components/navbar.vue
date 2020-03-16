@@ -7,7 +7,7 @@
           <li itemprop="name"><nuxt-link exact to="/tarifs">Список прокси</nuxt-link></li>
           <li itemprop="name"><nuxt-link exact to="/blogs">Статьи</nuxt-link></li>
           <li itemprop="name"><nuxt-link exact to="/news">Новости</nuxt-link></li>
-          <li itemprop="name"><a itemprop="url" href="/ru/contacts">Контакты</a></li>
+          <li itemprop="name"><nuxt-link exact to="/contacts">Контакты</nuxt-link></li>
       </ul>
       <div class="profile">
           <a href="#login" class="title colorbox-link">Войти</a>
