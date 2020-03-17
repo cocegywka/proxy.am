@@ -182,6 +182,8 @@
                     height: 212px;
                     overflow: auto;
                     line-height: 16px;
+                    position: relative;
+                    z-index: 1;
                 }
                 .button-holder{
                     text-align: center;
