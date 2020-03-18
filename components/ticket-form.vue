@@ -244,6 +244,7 @@
                     padding: 0 0 0 40px;
                     color: #495057;
                     font:300 14px/35px 'Rubik' !important;
+                    -webkit-appearance:none;
                 }
                 .button-holder{
                     text-align: center;
