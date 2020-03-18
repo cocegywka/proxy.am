@@ -87,7 +87,7 @@
 
 <style lang="scss">
     #contacts{
-        padding: 0 0 20px;
+        padding: 0 0 30px;
         .heading{
             h2{
                margin-bottom: 30px; 
