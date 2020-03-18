@@ -159,11 +159,29 @@
                     text-transform: uppercase;
                     span{color: #0080ec;}
                 }
+                .input-group{
+                    border-bottom: 1px solid #f2f2f5;
+                    &:focus{
+                        box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
+                    }
+                }
+                .input-group-prepend{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 40px;
+                    height: 35px;
+                    z-index: 2;
+                }
                 .form-control,
                 .input-group-text{
                     background: #fff;
                     border: none;
-                    border-bottom: 1px solid #f2f2f5;
+                    // border-bottom: 1px solid #f2f2f5;
+                }
+                .input-group > .form-control:not(:first-child),
+                .input-group > .custom-select:not(:first-child){
+                    border-radius: .25rem;
                 }
                 .input-group-text{
                     width: 40px;
@@ -176,7 +194,11 @@
                 }
                 .form-control{
                     font:300 14px/26px 'Rubik';
-                    padding: 12px 12px 12px 0;
+                    padding: 12px 12px 12px 40px;
+                    &:hover,
+                    &:focus{
+                        // box-shadow: none;
+                    }
                 }
                 textarea.form-control{
                     height: 212px;
