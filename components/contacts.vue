@@ -128,9 +128,12 @@
                         text-decoration: none;
                         color: #a9b1da;
                         text-transform: uppercase;
+                        img{
+                            vertical-align: top;
+                        }
                         span{
                             display: inline-block;
-                            margin-left: 7px;
+                            margin: 1px 0 0 7px;
                             line-height: 22px;
                             span{
                                 margin: 0;
@@ -177,6 +180,7 @@
                 .input-group-text{
                     background: #fff;
                     border: none;
+                    z-index: 1;
                     // border-bottom: 1px solid #f2f2f5;
                 }
                 .input-group > .form-control:not(:first-child),
