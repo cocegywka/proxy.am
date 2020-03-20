@@ -219,7 +219,7 @@ table td:last-child{border-right:none;}
 .top-menu .active a,
 .top-menu li a:hover{color:#bec0c9;}
 .top-menu li .nuxt-link-active{color:#bec0c9;}
-.user{float:right;padding:15px 10px 7px 65px;margin:3px 0 0;background:url(images/ico-login.png) no-repeat 0 50%;}
+/* .user{float:right;padding:15px 10px 7px 65px;margin:3px 0 0;background:url(images/ico-login.png) no-repeat 0 50%;}
 .user .title{font-size:16px;line-height:18px;margin:0 0 10px 8px;color:#333;display:block;font-weight:bold;}
 .user .wrap{width:100%;overflow:hidden;}
 .user__link:first-letter{text-transform:uppercase;}
@@ -229,7 +229,7 @@ table td:last-child{border-right:none;}
 .user__link_out:hover{color:#3CC4FC;}
 .user-logged{background:url(images/userpic.png) no-repeat 0 13px;margin:0;background-size:50px;padding:8px 10px 7px 55px;}
 .user-logged .title{margin:0 5px 10px;}
-.user-logged .user-name{color:#469AFD;}
+.user-logged .user-name{color:#469AFD;} */
 .icons{list-style:none;margin:0;padding:0;font-size:0;line-height:0;letter-spacing:-1px;text-align:center;}
 .icons li{display:inline-block;vertical-align:top;margin:0 5px 0;box-shadow:0 0 3px #ccc;border-radius:100px;position:relative;}
 .drop{width:100%;max-width:1080px;margin:0 auto 15px;position:relative;-moz-transition:.3s ease all;-webkit-transition:.3s ease all;-o-transition:.3s ease all;transition:.3s ease all;}
