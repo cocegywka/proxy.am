@@ -9,91 +9,91 @@
 				<li><nuxt-link to="/plans">Полезная информация</nuxt-link></li>
 			</ul> -->
 			<div class="plans-page">
-        <div class="plans-info">
-            <div class="row">
-                <div class="col-sm-6">
-                    <img src="../static/images/plans_info_1.png" alt="">
-                    <p>На всех тарифах прокси можно выбрать оптимальное для Вас количество рабочих потоков. </p>
-                </div>
-                <div class="col-sm-6">
-                    <img src="../static/images/plans_info_2.png" alt="">
-                    <p>Обратите внимание, что все тарифные планы на сроки месяц и более стоят намного дешевле!</p>
-                </div>
-            </div>
-        </div>
-        <div class="recommend">
-            <div class="table">
-                <div class="heading">
-                    <strong>Пакеты прокси</strong>
-                    <strong>Онлайн</strong>
-                    <strong>Параметры</strong>
-                    <strong>Графики</strong>
-                    <strong>Цена</strong>
-                </div>
-                <div class="plans-details">
-                    <div v-for="item of 7" class="plans-item clearfix"  :class="[{sale: item == 2}, {disable: item == 7}, `color--${item}`]" :key="item">
-                        <div class="title">
-                            <strong>Silver Pack</strong>
-                            <ul class="rating">
-                                <li class="active"></li>
-                                <li class="active"></li>
-                                <li class="active"></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
+                <div class="plans-info">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="../static/images/plans_info_1.png" alt="">
+                            <p>На всех тарифах прокси можно выбрать оптимальное для Вас количество рабочих потоков. </p>
                         </div>
-                        <div class="online">
-                            <span>1000</span>
-                        </div>
-                        <div class="params">
-                            <div class="range-slider">
-                                <div class="row">
-                                    <span class="col-sm-3">Аренда</span>
-                                    <div class="col-sm-5">
-                                        <vue-slider
-                                            ref="slider"
-                                            v-model="valueRent"
-                                            v-bind="optionsRent"
-                                        ></vue-slider>
-                                    </div>
-                                    <em class="col-sm-4">{{ valueRent }} Дней</em>
-                                </div>
-                            </div>
-                            <div class="range-slider">
-                                <div class="row">
-                                    <span class="col-sm-3">Потоки</span>
-                                    <div class="col-sm-5">
-                                        <vue-slider
-                                            ref="slider"
-                                            v-model="valueStream"
-                                            v-bind="optionsStream"
-                                        ></vue-slider>
-                                    </div>
-                                    <em class="col-sm-4">{{ valueStream }}</em>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="graphs">
-                            <ul class="graph-list">
-                                <li><a href="#" @click.prevent=""><span class="ico"></span></a></li>
-                                <li><a href="#" @click.prevent=""><span class="ico"></span></a></li>
-                                <li><a href="#" @click.prevent=""><span class="ico"></span></a></li>
-                            </ul>
-                        </div>
-                        <div class="price">
-                            <span class="sale">35$</span>
-                            <em v-if="item !== 7">{{item}}8$</em>
-                            <em v-else>0$</em>
-                        </div>
-                        <div class="button">
-                            <span class="sale">-15%</span>
-                            <a href="#" class="btn">Купить</a>
-                            <a href="#" class="btn info">Инфо</a>
+                        <div class="col-sm-6">
+                            <img src="../static/images/plans_info_2.png" alt="">
+                            <p>Обратите внимание, что все тарифные планы на сроки месяц и более стоят намного дешевле!</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+                <div class="recommend">
+                    <div class="table">
+                        <div class="heading">
+                            <strong>Пакеты прокси</strong>
+                            <strong>Онлайн</strong>
+                            <strong>Параметры</strong>
+                            <strong>Графики</strong>
+                            <strong>Цена</strong>
+                        </div>
+                        <div class="plans-details">
+                            <div v-for="item of 7" class="plans-item clearfix"  :class="[{sale: item == 2}, {disable: item == 7}, `color--${item}`]" :key="item">
+                                <div class="title">
+                                    <strong>Silver Pack</strong>
+                                    <ul class="rating">
+                                        <li class="active"></li>
+                                        <li class="active"></li>
+                                        <li class="active"></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="online">
+                                    <span>1000</span>
+                                </div>
+                                <div class="params">
+                                    <div class="range-slider">
+                                        <div class="row">
+                                            <span class="col-sm-3">Аренда</span>
+                                            <div class="col-sm-5">
+                                                <vue-slider
+                                                    ref="slider"
+                                                    v-model="valueRent"
+                                                    v-bind="optionsRent"
+                                                ></vue-slider>
+                                            </div>
+                                            <em class="col-sm-4">{{ valueRent }} Дней</em>
+                                        </div>
+                                    </div>
+                                    <div class="range-slider">
+                                        <div class="row">
+                                            <span class="col-sm-3">Потоки</span>
+                                            <div class="col-sm-5">
+                                                <vue-slider
+                                                    ref="slider"
+                                                    v-model="valueStream"
+                                                    v-bind="optionsStream"
+                                                ></vue-slider>
+                                            </div>
+                                            <em class="col-sm-4">{{ valueStream }}</em>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="graphs">
+                                    <ul class="graph-list">
+                                        <li><a href="#" @click.prevent=""><span class="ico"></span></a></li>
+                                        <li><a href="#" @click.prevent=""><span class="ico"></span></a></li>
+                                        <li><a href="#" @click.prevent=""><span class="ico"></span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="price">
+                                    <span class="sale">35$</span>
+                                    <em v-if="item !== 7">{{item}}8$</em>
+                                    <em v-else>0$</em>
+                                </div>
+                                <div class="button">
+                                    <span class="sale">-15%</span>
+                                    <a href="#" class="btn">Купить</a>
+                                    <a href="#" class="btn info">Инфо</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			</div>
 		</div>
 	</div>
