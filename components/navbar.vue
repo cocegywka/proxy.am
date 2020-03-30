@@ -4,7 +4,7 @@
       <ul class="top-menu">
           <li itemprop="name"><nuxt-link exact to="/faq">FAQ</nuxt-link></li>
           <li itemprop="name"><nuxt-link exact to="/plans">Цены</nuxt-link></li>
-          <li itemprop="name"><nuxt-link exact to="/tarifs">Список прокси</nuxt-link></li>
+          <li itemprop="name"><nuxt-link exact to="/proxy-list">Список прокси</nuxt-link></li>
           <li itemprop="name"><nuxt-link exact to="/blogs">Статьи</nuxt-link></li>
           <li itemprop="name"><nuxt-link exact to="/news">Новости</nuxt-link></li>
           <li itemprop="name"><nuxt-link exact to="/contacts">Контакты</nuxt-link></li>
