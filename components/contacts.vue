@@ -174,7 +174,7 @@
                     left: 0;
                     width: 40px;
                     height: 35px;
-                    z-index: 2;
+                    z-index: 4;
                 }
                 .form-control,
                 .input-group-text{
