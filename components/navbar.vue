@@ -10,11 +10,20 @@
           <li itemprop="name"><nuxt-link exact to="/contacts">Контакты</nuxt-link></li>
       </ul>
       <div class="profile">
-          <a href="#login" class="title colorbox-link">Войти</a>
+        <a href="" @click.prevent class="title colorbox-link" v-b-modal.modal-sign>Войти</a>
+        <modalSign />
       </div>
       <span class="ip">
-          <a href="#register" class="colorbox-link cboxElement">Регистрация</a>
+        <a href="" @click.prevent class="colorbox-link cboxElement" v-b-modal.modal-reg>Регистрация</a>
       </span>
     </div>
   </div>
 </template>
+<script>
+  import modalSign from './modal-sign.vue';
+  export default {
+    components: {
+      modalSign,
+    },
+  }
+</script>
