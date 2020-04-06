@@ -16,7 +16,7 @@
             <span>Proxy.am</span>
             <strong>ПРИВАТНЫЕ ПРОКСИ-СЕРВЕРЫ</strong>
             <p>Профессиональные решения для обеспечения приватности</p>
-            <a href="#" class="button">Зарегистрируйтесь</a>
+            <a href="#" class="button" v-b-modal.modal-reg>Зарегистрируйтесь</a>
           </div>
           <div class="promo-text">
             <span>SHARED ПРОКСИ </span>
