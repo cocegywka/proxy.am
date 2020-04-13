@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>proxy.final</title>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta data-hid="description" name="description" content="proxy.final">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="icon" type="image/x-icon" href="/favicon.ico">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/nice-select.css"/>
+		<link rel="stylesheet" href="css/all.css" type="text/css" />
+		
+		<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+		<script src="./js/jquery.nice-select.min.js"></script>
+		<script src="./js/jquery.main.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.slider').slick({
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					arrows: false,
+					fade: true,
+					dots: true,
+				});
+				$('.carousel').slick({
+					slidesToShow: 7,
+					slidesToScroll: 7,
+					arrows: false,
+					dots: false,
+				});
+				$('select').niceSelect();
+			});
+		</script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="w1">
+				<header class="header">
+					<div class="menu-top">
+						<div itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="center-wrapper">
+							<ul class="top-menu">
+								<li itemprop="name"><a href="/faq">FAQ</a></li>
+								<li itemprop="name"><a href="/plans">Цены</a></li>
+								<li itemprop="name"><a href="/proxy-list">Список прокси</a></li>
+								<li itemprop="name"><a href="/blogs">Статьи</a></li>
+								<li itemprop="name"><a href="/news">Новости</a></li>
+								<li itemprop="name"><a href="/contacts">Контакты</a></li>
+							</ul>
+							<div class="profile">
+								<a href="#" class="title colorbox-link" >Войти</a>
+								<!-- <modalSign /> -->
+							</div>
+							<span class="ip">
+								<a href="#" class="colorbox-link cboxElement" >Регистрация</a>
+							</span>
+						</div>
+					</div>
+					
+					<!-- stats -->
+					<div id="navigation">
+						<div class="center-wrapper clr">
+							<a href="/" class="logo">
+								<span class="logo-shield"></span>
+								<img src="./images/logo-white.png" alt="Приватный прокси-сервер" width="155" height="43"/>
+							</a>
+							<div class="head-stats">
+								<div class="head-stats-block language-box">
+									<span class="head-stats__item">Выбор языка</span>
+									<div class="row-block language">
+										<a href="#" class="language__item active"><img src="./images/flagru.png" alt="rus"></a>
+										<a href="/en/changelang" class="language__item"><img src="./images/flagusa.png" alt="usa"></a>
+									</div>
+								</div>
+								<div class="head-stats-block">
+									<div class="row-block">
+										<span class="head-stats__item" id="text_expires">Разных стран</span>
+										<div class="row-block">
+										<div class="img-holder">
+											<img src="./images/ico-head-stat4.png" alt="">
+										</div>
+										<span class="stat-number" id="country_count"><span class="spincrement" data-from="0" data-to="221">214</span></span>
+										</div>
+									</div>
+								</div>
+								<div class="head-stats-block">
+									<div class="row-block">
+										<span class="head-stats__item" id="text_threads">Онлайн сейчас</span>
+										<div class="row-block">
+										<div class="img-holder">
+											<img src="./images/ico-head-stat3.png" alt="">
+										</div>
+										<span class="stat-number" id="online_now"><span class="spincrement" data-from="0" data-to="52741">000 00</span></span>
+										</div>
+									</div>
+								</div>
+								<div class="head-stats-block">
+									<div class="row-block">
+										<span class="head-stats__item">Онлайн сегодня</span>
+										<div class="row-block">
+										<div class="img-holder">
+											<img src="./images/ico-head-stat2.png" alt="">
+										</div>
+										<span class="stat-number" id="online_today"><span class="spincrement" data-from="0" data-to="174406">95 035</span></span>
+										</div>
+									</div>
+								</div>
+								<div class="head-stats-block">
+									<div class="row-block">
+										<span class="head-stats__item">Всего прокси</span>
+										<div class="row-block">
+										<div class="img-holder">
+											<img src="./images/ico-head-stat1.png" alt="">
+										</div>
+										<span class="stat-number" id="proxy_count"><span class="spincrement" data-from="0" data-to="276301">152 874</span></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+				<!-- Slider -->
+				<div class="slider">
+					<div class="slide">
+						<img src="images/banner2.png" alt="Приватный прокси-сервер" width="1000" height="384"/>
+						<img src="images/spinner.png" alt="" class="spinner">
+						<div class="promo-sign">
+							<span>Proxy.am</span>
+							<strong>ПРИВАТНЫЕ ПРОКСИ-СЕРВЕРЫ</strong>
+							<p>Профессиональные решения для обеспечения приватности</p>
+							<a href="#" class="button" >Зарегистрируйтесь</a>
+						</div>
+						<div class="promo-text">
+							<span>SHARED ПРОКСИ </span>
+							<strong>УВЕЛИЧЕНИЕ ОНЛАЙНА</strong>
+							<p>20,000 IP всего за 10$ в месяц.</p>
+						</div>
+						<div class="promo-price row">
+							<div class="col-sm-6">
+							<span class="shared">SHARED PROXY</span>
+							<span class="ip">20 000 IP</span>
+							</div>
+							<div class="col-sm-6">
+							<div class="price">
+								<strong>10<sup>$</sup></strong>
+								<em>в месяц.</em>
+							</div>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+						<img src="images/banner2.png" alt="Приватный прокси-сервер" width="1000" height="384"/>
+						<img src="images/spinner.png" alt="" class="spinner">
+						<div class="promo-sign">
+							<span>Proxy.am</span>
+							<strong>ПРИВАТНЫЕ ПРОКСИ-СЕРВЕРЫ</strong>
+							<p>Профессиональные решения для обеспечения приватности</p>
+							<a href="#" class="button" >Зарегистрируйтесь</a>
+						</div>
+						<div class="promo-text">
+							<span>SHARED ПРОКСИ </span>
+							<strong>УВЕЛИЧЕНИЕ ОНЛАЙНА</strong>
+							<p>20,000 IP всего за 10$ в месяц.</p>
+						</div>
+						<div class="promo-price row">
+							<div class="col-sm-6">
+							<span class="shared">SHARED PROXY</span>
+							<span class="ip">20 000 IP</span>
+							</div>
+							<div class="col-sm-6">
+							<div class="price">
+								<strong>10<sup>$</sup></strong>
+								<em>в месяц.</em>
+							</div>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+						<img src="images/banner2.png" alt="Приватный прокси-сервер" width="1000" height="384"/>
+						<img src="images/spinner.png" alt="" class="spinner">
+						<div class="promo-sign">
+							<span>Proxy.am</span>
+							<strong>ПРИВАТНЫЕ ПРОКСИ-СЕРВЕРЫ</strong>
+							<p>Профессиональные решения для обеспечения приватности</p>
+							<a href="#" class="button" >Зарегистрируйтесь</a>
+						</div>
+						<div class="promo-text">
+							<span>SHARED ПРОКСИ </span>
+							<strong>УВЕЛИЧЕНИЕ ОНЛАЙНА</strong>
+							<p>20,000 IP всего за 10$ в месяц.</p>
+						</div>
+						<div class="promo-price row">
+							<div class="col-sm-6">
+							<span class="shared">SHARED PROXY</span>
+							<span class="ip">20 000 IP</span>
+							</div>
+							<div class="col-sm-6">
+							<div class="price">
+								<strong>10<sup>$</sup></strong>
+								<em>в месяц.</em>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				  
+				<!-- Popular -->
+				<div class="popular">
+					<div class="box">
+						<h1>ПОПУЛЯРНЫЕ ТАРИФЫ ДЛЯ ПОКУПКИ ПРОКСИ</h1>
+						<p class="description">Наши проверенные и быстрые прокси-сервера лишены этих недостатков, обеспечивая не только абсолютную анонимность своим пользователям, но и быстрое подключение к сети, без привязки к географическому местоположению клиента или часового пояса. </p>
+						<ul class="row">
+							<li class="col-sm-4 color--1">
+								<div class="item">
+									<div class="heading">
+										<strong>Silver Pack</strong>
+										<span class="ip">Ipv4</span>
+									</div>
+									<div class="info row clearfix">
+										<ul class="col-sm-7 description">
+											<li>600 прокси</li>
+											<li>до 2000 потоков</li>
+											<li>HTTP | HTTPS | SOCKS</li>
+											<li>безлимитный трафик</li>
+										</ul>
+										<div class="col-sm-5">
+											<strong class="price">10<span>$</span></strong>
+											<select name="" id="">
+												<option value="1">В месяц</option>
+												<option value="2">В год</option>
+											</select>
+										</div>
+									</div>
+									<div class="buttons row">
+										<div class="col-sm-7">
+											<a href="#" class="btn more">Подробнее</a>
+										</div>
+										<div class="col-sm-5">
+											<a href="#" class="btn buy">Купить</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="col-sm-4 color--2">
+								<div class="item">
+									<div class="heading">
+										<strong>Silver Pack</strong>
+										<span class="ip">Ipv4</span>
+									</div>
+									<div class="info row clearfix">
+										<ul class="col-sm-7 description">
+											<li>600 прокси</li>
+											<li>до 2000 потоков</li>
+											<li>HTTP | HTTPS | SOCKS</li>
+											<li>безлимитный трафик</li>
+										</ul>
+										<div class="col-sm-5">
+											<strong class="price">20<span>$</span></strong>
+											<select name="" id="">
+												<option value="1">В месяц</option>
+												<option value="2">В год</option>
+											</select>
+										</div>
+									</div>
+									<div class="buttons row">
+										<div class="col-sm-7">
+											<a href="#" class="btn more">Подробнее</a>
+										</div>
+										<div class="col-sm-5">
+											<a href="#" class="btn buy">Купить</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="col-sm-4 color--3">
+								<div class="item">
+									<div class="heading">
+										<strong>Silver Pack</strong>
+										<span class="ip">Ipv4</span>
+									</div>
+									<div class="info row clearfix">
+										<ul class="col-sm-7 description">
+											<li>600 прокси</li>
+											<li>до 2000 потоков</li>
+											<li>HTTP | HTTPS | SOCKS</li>
+											<li>безлимитный трафик</li>
+										</ul>
+										<div class="col-sm-5">
+											<strong class="price">30<span>$</span></strong>
+											<select name="" id="">
+												<option value="1">В месяц</option>
+												<option value="2">В год</option>
+											</select>
+										</div>
+									</div>
+									<div class="buttons row">
+										<div class="col-sm-7">
+											<a href="#" class="btn more">Подробнее</a>
+										</div>
+										<div class="col-sm-5">
+											<a href="#" class="btn buy">Купить</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="col-sm-4 color--4">
+								<div class="item">
+									<div class="heading">
+										<strong>Silver Pack</strong>
+										<span class="ip">Ipv4</span>
+									</div>
+									<div class="info row clearfix">
+										<ul class="col-sm-7 description">
+											<li>600 прокси</li>
+											<li>до 2000 потоков</li>
+											<li>HTTP | HTTPS | SOCKS</li>
+											<li>безлимитный трафик</li>
+										</ul>
+										<div class="col-sm-5">
+											<strong class="price">40<span>$</span></strong>
+											<select name="" id="">
+												<option value="1">В месяц</option>
+												<option value="2">В год</option>
+											</select>
+										</div>
+									</div>
+									<div class="buttons row">
+										<div class="col-sm-7">
+											<a href="#" class="btn more">Подробнее</a>
+										</div>
+										<div class="col-sm-5">
+											<a href="#" class="btn buy">Купить</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="col-sm-4 color--5">
+								<div class="item">
+									<div class="heading">
+										<strong>Silver Pack</strong>
+										<span class="ip">Ipv4</span>
+									</div>
+									<div class="info row clearfix">
+										<ul class="col-sm-7 description">
+											<li>600 прокси</li>
+											<li>до 2000 потоков</li>
+											<li>HTTP | HTTPS | SOCKS</li>
+											<li>безлимитный трафик</li>
+										</ul>
+										<div class="col-sm-5">
+											<strong class="price">50<span>$</span></strong>
+											<select name="" id="">
+												<option value="1">В месяц</option>
+												<option value="2">В год</option>
+											</select>
+										</div>
+									</div>
+									<div class="buttons row">
+										<div class="col-sm-7">
+											<a href="#" class="btn more">Подробнее</a>
+										</div>
+										<div class="col-sm-5">
+											<a href="#" class="btn buy">Купить</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="col-sm-4 color--6">
+								<div class="item">
+									<div class="heading">
+										<strong>Silver Pack</strong>
+										<span class="ip">Ipv4</span>
+									</div>
+									<div class="info row clearfix">
+										<ul class="col-sm-7 description">
+											<li>600 прокси</li>
+											<li>до 2000 потоков</li>
+											<li>HTTP | HTTPS | SOCKS</li>
+											<li>безлимитный трафик</li>
+										</ul>
+										<div class="col-sm-5">
+											<strong class="price">60<span>$</span></strong>
+											<select name="" id="">
+												<option value="1">В месяц</option>
+												<option value="2">В год</option>
+											</select>
+										</div>
+									</div>
+									<div class="buttons row">
+										<div class="col-sm-7">
+											<a href="#" class="btn more">Подробнее</a>
+										</div>
+										<div class="col-sm-5">
+											<a href="#" class="btn buy">Купить</a>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+
+				<!-- Promo list -->
+				<div class="promo-list">
+					<div class="center-wrapper">
+						<h2 class="promo-title">наши прокси подходят для следующих задач<span>
+				прокси подходят для следующих задач</span></h2>
+						<ul class="row">
+							<li class="col-sm-4">
+								<div class="img-holder">
+									<img src="images/ico_promo1.png" alt="">
+								</div>
+								<div class="text-holder">
+									<strong>регистрация аккаунтов</strong>
+									<p>Наша компания предлагает пакеты прокси-серверов любого класса: элитных, приватных, анонимных. </p>
+								</div>
+							</li>
+							<li class="col-sm-4">
+								<div class="img-holder">
+									<img src="images/ico_promo2.png" alt="">
+								</div>
+								<div class="text-holder">
+									<strong>парсинг поисковых систем</strong>
+									<p>Наша компания предлагает пакеты прокси-серверов любого класса: элитных, приватных, анонимных. </p>
+								</div>
+							</li>
+							<li class="col-sm-4">
+								<div class="img-holder">
+									<img src="images/ico_promo3.png" alt="">
+								</div>
+								<div class="text-holder">
+									<strong>брут аккаунтов</strong>
+									<p>Наша компания предлагает пакеты прокси-серверов любого класса: элитных, приватных, анонимных. </p>
+								</div>
+							</li>
+							<li class="col-sm-4">
+								<div class="img-holder">
+									<img src="images/ico_promo4.png" alt="">
+								</div>
+								<div class="text-holder">
+									<strong>регистрация аккаунтов</strong>
+									<p>Наша компания предлагает пакеты прокси-серверов любого класса: элитных, приватных, анонимных. </p>
+								</div>
+							</li>
+							<li class="col-sm-4">
+								<div class="img-holder">
+									<img src="images/ico_promo5.png" alt="">
+								</div>
+								<div class="text-holder">
+									<strong>обход блокировок</strong>
+									<p>Наша компания предлагает пакеты прокси-серверов любого класса: элитных, приватных, анонимных. </p>
+								</div>
+							</li>
+							<li class="col-sm-4">
+								<div class="img-holder">
+									<img src="images/ico_promo6.png" alt="">
+								</div>
+								<div class="text-holder">
+									<strong>безопасность в сети</strong>
+									<p>Наша компания предлагает пакеты прокси-серверов любого класса: элитных, приватных, анонимных. </p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+	
+				<!-- Payments -->
+				<div class="payment-box">
+					<div class="plans__subtitle">
+						<strong>Сомневаетесь в качестве прокси?</strong>
+						<span>Подключитесь к нашему серверу и попробуйте все прокси бесплатно!</span>
+				  	</div>
+					<div class="center-wrapper">
+						<div class="carousel">
+							<div class="payment__item">
+								<img src="./images/pay12.png" alt="webmoney">
+							</div>
+							<div class="payment__item">
+								<img src="./images/pay13.png" alt="yandex">
+							</div>
+							<div class="payment__item">
+								<img src="./images/pay14.png" alt="qiwi">
+							</div>
+							<div class="payment__item">
+								<img src="./images/pay15.png" alt="bitcoin">
+							</div>
+							<div class="payment__item">
+								<img src="./images/pay16.png" alt="payeer">
+							</div>
+							<div class="payment__item">
+								<img src="./images/pay17.png" alt="visa">
+							</div>
+							<div class="payment__item">
+								<img src="./images/pay18.png" alt="mastercard">
+							</div>
+							<div class="payment__item">
+								<img src="./images/pay8.png" alt="perfect money">
+							</div>
+							<div class="payment__item">
+								<img src="./images/pay9.png" alt="alfa click">
+							</div>
+							<div class="payment__item">
+								<img src="./images/pay10.png" alt="liqpay">
+							</div>
+							<div class="payment__item">
+								<img src="./images/pay11.png" alt="wallet one">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Footer -->
+				<div itemscope="itemscope" itemtype="http://schema.org/WPFooter" class="footer">
+					<div class="footer-holder">
+						<div class="logo-box">
+						<a href="/" class="footer-logo">
+							<img src="./images/footer-logo.png" alt="">
+						</a>
+						<span class="slogan">Попробуйте наши прокси <br>БЕСПЛАТНО СЕЙЧАС!</span>
+						<span class="copyright">© 2016-2018</span>
+						</div>
+						<div class="f-articles">
+						<ul class="footer-articles">
+							<li><a href="/ru/proxy-socks5">Socks 5 прокси для телеграма</a></li>
+							<li><a href="/ru/proxy-ssl">SSL (https) прокси</a></li>
+							<li><a href="/ru/proxy-dlya-key-collector">Прокси для Key Collector</a></li>
+							<li><a href="/ru/proxy-dlya-ps4-psn">Прокси для PS4 (PSN)</a></li>
+							<li><a href="/ru/proxy-dlya-mozilla">Прокси для Mozilla</a></li>
+						</ul>
+						<ul class="footer-articles">
+							<li><a href="/ru/proxy-dlya-chrome">Прокси для Chrome</a></li>
+							<li><a href="/ru/proxy-dlya-avito">Прокси для Авито</a></li>
+							<li><a href="/ru/proxy-dlya-odnoklassnikov">Прокси для Одноклассников</a></li>
+							<li><a href="/ru/proxy-dlya-vk">Прокси для ВК</a></li>
+							<li><a href="/ru/proxy-dlya-instagram">Прокси для инстаграмм</a></li>
+						</ul>
+						</div>
+						<div class="buttons">
+							<div class="webmoney-labels">
+								<a href="http://www.free-kassa.ru/" rel="nofollow" target=_blank><img src="./images/pay-by-freekassa.png" alt="free-kassa"></a>
+								<a href="http://www.megastock.ru/" rel="nofollow" target=_blank><img src="./images/we-accept.png" alt="www.megastock.ru"></a>
+								<a href="https://passport.webmoney.ru/asp/certview.asp?wmid=361633232017" rel="nofollow" target=_blank><img src="./images/attestated.png" alt="аттестат WM" title="Здесь находится аттестат нашего WM идентификатора 361633232017"></a>
+								<a href="//www.liveinternet.ru/click" class="counter" target="_blank" rel="nofollow"><img src="//counter.yadro.ru/logo?44.11" width="31" height="31" alt="" title="LiveInternet"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="scrollTop" @click.prevent="scrollToTop"></a>
+				
+			</div>
+		</div>
+		<!-- <footer>
+		</footer> -->
+	</body>
+</html>

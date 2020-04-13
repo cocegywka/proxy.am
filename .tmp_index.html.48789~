@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>VE-RO</title>
+		<link rel="stylesheet" href="css/all.css" type="text/css" />
+		<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" />
+		<link rel="stylesheet" href="css/jquery.fancybox-thumbs.css" type="text/css" />
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/popup.js"></script>
+		<script type="text/javascript" src="js/select.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/form.js"></script>
+		<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+		<script type="text/javascript" src="js/jquery.fancybox-thumbs.js"></script>
+		<!--[if lte IE 8]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
+	</head>
+	<body class="inner-page">
+		<div class="wrapper">
+			<div class="w1">
+				<header>
+					<strong class="logo"><a href="#">VE-RO</a></strong>
+					<a href="#" class="btn-basket"></a>
+					<a href="#" class="btn-sign active"></a>
+					<ul class="nav">
+						<li><a href="#">Главная</a></li>						<li>
+							<a href="#">Каталог</a>
+							<div class="drop">
+								<ul>									<li><a href="#">Мужской каталог</a></li>									<li>										<a href="#">Женский каталог</a>									</li>									<li><a href="#">Детский каталог</a></li>									<li><a href="#">Детский каталог</a></li>									<li><a href="#">Детский каталог</a></li>									<li><a href="#">Детский каталог</a></li>									<li><a href="#">Детский каталог</a></li>									<li><a href="#">Детский каталог</a></li>									<li>
+										<a href="#">Детский каталог</a>
+										<div class="drop drop-level-2">
+											<ul>
+												<li><a href="#">Мужской каталог</a></li>
+												<li><a href="#">Мужской каталог</a></li>
+												<li><a href="#">Мужской каталог</a></li>
+												<li><a href="#">Мужской каталог</a></li>
+												<li>
+													<a href="#">Мужской каталог</a>
+													<div class="drop drop-level-3">
+														<ul>
+															<li>
+																<a href="#">Мужской каталог</a>
+																<div class="drop drop-level-4">
+																	<ul>
+																		<li><a href="#">Мужской каталог</a></li>
+																		<li><a href="#">Мужской каталог</a></li>
+																		<li>
+																			<a href="#">Мужской каталог</a>
+																			<div class="drop drop-level-5">
+																				<ul>
+																					<li><a href="#">Мужской каталог</a></li>
+																					<li><a href="#">Мужской каталог</a></li>
+																					<li><a href="#">Мужской каталог</a></li>
+																					<li><a href="#">Мужской каталог</a></li>
+																				</ul>
+																			</div>
+																		</li>
+																		<li><a href="#">Мужской каталог</a></li>
+																	</ul>
+																</div>
+															</li>
+															<li><a href="#">Мужской каталог</a></li>
+														</ul>
+													</div>
+												</li>
+												<li>
+													<a href="#">Мужской каталог</a>
+												</li>
+											</ul>
+										</div>
+									</li>									<li>
+										<a href="#">Детский каталог</a>
+									</li>								</ul>
+							</div>
+						</li>						<li><a href="#">Совместная покупка</a></li>						<li><a href="#">Конкурс</a></li>						<li><a href="#">Оплата и доставка</a></li>						<li><a href="#">Контакты</a></li>					</ul>
+				</header>
+				<div class="banner-box">
+					<div class="banner">
+						<img src="images/banner.jpg" alt="image description" width="973" height="314" />
+					</div>
+				</div>
+				<div class="menu-holder">
+					<ul class="menu">
+						<li><a href="#">Мои товары <span>2</span></a></li>						<li><a href="#">Мои покупки <span>6</span></a></li>						<li><a href="#">Мои сделки <span>1</span></a></li>						<li><a href="#">Товар на обмен <span>3</span></a></li>						<li><a href="#">Конкурс <span>1</span></a></li>
+						<li><a href="#">Сообщения <span>5</span></a></li>
+					</ul>
+					<a href="#" class="btn-settings"></a>
+					<a href="#" class="btn-favourites"></a>
+					<a href="#" class="wallet">У вас: <br /> 1234567 К</a>
+				</div>
+				<div class="main">
+					<div class="paid-items">
+						<h2>Подтвердить оплату</h2>
+						<div class="wrap">
+							<ul class="paid-list">								<li>									<a href="images/img-24.gif" class="img-holder fancybox-thumb" data-fancybox-group="gallery">										<span><img src="images/img-24.gif" alt="image description" width="120" height="121" /></span>									</a>									<div class="row">										<span class="title">Женские туфли Vision FS</span>										<dl>											<dt>Цвет:</dt>											<dd>красный</dd>											<dt>Размер:</dt>											<dd>36</dd>										</dl>									</div>								</li>								<li>									<a href="images/img-24.gif" class="img-holder fancybox-thumb" data-fancybox-group="gallery">										<span><img src="images/img-24.gif" alt="image description" width="120" height="121" /></span>									</a>									<div class="row">										<span class="title">Женские туфли Vision FS</span>										<dl>											<dt>Цвет:</dt>											<dd>красный</dd>											<dt>Размер:</dt>											<dd>36</dd>										</dl>									</div>								</li>								<li>									<a href="images/img-24.gif" class="img-holder fancybox-thumb" data-fancybox-group="gallery">										<span><img src="images/img-24.gif" alt="image description" width="120" height="121" /></span>									</a>									<div class="row">										<span class="title">Женские туфли Vision FS</span>										<dl>											<dt>Цвет:</dt>											<dd>красный</dd>											<dt>Размер:</dt>											<dd>36</dd>										</dl>									</div>								</li>							</ul>							<form action="#" class="paid-form">								<fieldset>									<div class="wrap">										<div class="input-box">											<label for="lab1">Товар оплачен:</label>											<input type="text" placeholder="12.05.2014" id="lab1" class="text" />										</div>										<div class="input-box">											<label for="lab2">Примерное время оплаты:</label>											<input type="text" placeholder="10:55" id="lab2" class="text" />										</div>										<div class="input-box">											<label for="lab3">Сумма в грн.</label>											<input type="text" placeholder="750" id="lab3" class="text" />										</div>									</div>
+									<div class="wrap">
+										<div class="select-box">
+											<label>Способ перевода</label>
+											<select class="pay-select">
+												<option value="1">Приват 24 </option>
+												<option value="2">Приват 24 </option>
+												<option value="3">Приват 24 </option>
+											</select>
+										</div>
+									</div>
+									<div class="wrap">
+										<input type="submit" value="Товары оплачены" class="btn-accept" />
+										<span class="helper">Заполнив все графы вы <br />получите 1 купон</span>
+									</div>								</fieldset>							</form>
+						</div>
+					</div>
+					<a href="#" class="btn-up">вверх</a>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer-box">
+				<strong class="logo"><a href="#">VE-RO</a></strong>
+				<ul class="nav">
+					<li><a href="#">Главная</a></li>
+					<li>
+						<a href="#">Каталог</a>
+						<ul class="drop">
+							<li><a href="#">Мужской каталог</a></li>
+							<li><a href="#">Женский каталог</a></li>
+							<li><a href="#">Детский каталог</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Совместная покупка</a></li>
+					<li><a href="#">Конкурс</a></li>
+					<li><a href="#">Оплата и доставка</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="copy-holder">
+				<span>Copyright © Ve-ro. 2013 - 2014</span>
+				<span>All rights reserved</span>
+			</div>
+		</footer>
+		<div class="popup-holder sign-popup" id="sign" style="display:none;">
+			<div class="bg"></div>
+			<div class="popup">
+				<form action="#" class="sign-form">
+					<fieldset>
+						<strong class="title">Вход на сайт</strong>						<input type="text" placeholder="E-mail" class="text" />						<input type="password" placeholder="Пароль" class="text" />
+						<input type="submit" class="submit-sign" value="Войти" />
+						<a href="#" class="forgot">Забыли пароль?</a>
+						<span class="link-reg">или <a href="#">зарегистрироваться</a></span>
+					</fieldset>
+				</form>
+				<form action="#" class="reg-form" style="display:none;">
+					<fieldset>
+						<strong class="title">Регистрация</strong>
+						<input type="text" placeholder="E-mail" class="text" />
+						<input type="password" placeholder="Пароль" class="text" />
+						<input type="password" placeholder="Пароль еще раз" class="text" />
+						<input type="submit" class="submit-reg" value="Зарегистрироваться" />
+						<span class="licence">Нажатием кнопки ЗАРЕГ�?СТР�?РОВАТЬСЯ я 
+соглашаюсь с условиями работы сайта и 
+обработкой сайтом указанной мною информации.</span>
+					</fieldset>
+				</form>
+				<form action="#" class="thank-box" style="display:none;">
+					<fieldset>
+						<div class="img-holder">
+							<img src="images/img-18.png" alt="image description" width="95" height="81" />
+						</div>
+						<span class="thank-text">Спасибо за регистрацию</span>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
